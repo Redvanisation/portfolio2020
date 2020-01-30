@@ -1,7 +1,14 @@
 import React from 'react';
+import Nav from './Nav';
+import Social from './Social';
+import Hero from '../containers/Hero';
 
 const App = () => (
-  <h1>Portfolio 2020!</h1>
+  <div>
+    <Nav />
+    {/* <Social /> */}
+    {/* <Hero /> */}
+  </div>
 );
 
 export default App;
