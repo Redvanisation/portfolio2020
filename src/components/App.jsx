@@ -1,13 +1,13 @@
 import React from 'react';
 import Nav from './Nav';
 import Social from './Social';
-import Hero from '../containers/Hero';
+import Header from '../containers/Header';
 
 const App = () => (
-  <div>
+  <div className="app">
     <Nav />
     {/* <Social /> */}
-    {/* <Hero /> */}
+    <Header />
   </div>
 );
 
