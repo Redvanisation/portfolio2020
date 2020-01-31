@@ -1,0 +1,17 @@
+.contact {
+  position: relative;
+  z-index: 9;
+  margin-top: -10rem;
+  padding-top: 12rem;
+  padding-bottom: 10rem;
+  background-color: $color-primary-light;
+  @include sectionBottom;
+
+  &__title {
+
+  }
+
+  &__form {
+    max-width: 50%;
+  }
+}

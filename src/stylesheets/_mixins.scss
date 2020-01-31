@@ -8,3 +8,8 @@
 @mixin boxShadowBlack {
   box-shadow: 0 .2rem .5rem rgba($color-black, .5);
 }
+
+@mixin sectionBottom {
+  -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 100%, 68% 93%, 29% 96%, 0 90%, 0 0);
+  clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 100%, 68% 93%, 29% 96%, 0 90%, 0 0);
+}

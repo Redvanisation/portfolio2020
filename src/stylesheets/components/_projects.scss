@@ -1,0 +1,46 @@
+.projects {
+  margin-top: -10rem;
+  padding-top: 15rem;
+  padding-bottom: 10rem;
+  position: relative;
+  z-index: 10;
+  // -webkit-clip-path: polygon(20% 0%, 20% 0%, 100% 0, 100% 100%, 68% 90%, 29% 96%, 0 90%, 0 0);
+  // clip-path: polygon(20% 0%, 20% 0%, 100% 0, 100% 100%, 68% 90%, 29% 96%, 0 90%, 0 0);
+
+  @include sectionBottom;
+  background-color: $color-primary;
+
+  &__title {
+    padding-bottom: 1rem;
+  }
+  
+  &__quote {
+    padding-bottom: 3rem;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+  
+  &__search {
+    padding-bottom: 1rem;
+
+    &--skill {
+      display: inline-block;
+      cursor: pointer;
+      
+      &:not(:last-child) {
+        margin-right: .5rem;
+      }
+    }
+  }
+
+  &__container {
+    margin: 0 1rem;
+    padding: 2rem 0;
+  }
+  
+  &__project {
+    background-color: $color-primary-light;
+    margin: 1rem;
+  }
+
+}
