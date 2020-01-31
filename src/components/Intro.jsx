@@ -14,6 +14,7 @@ const Intro = () => (
       </div>
       <div className="column is-5">
         <h1 className="title is-1">Vector</h1>
+        <a href="#" className="button is-full">Download Resume</a>
       </div>
       <div className="column is-2">
         <h1 className="title">
@@ -25,9 +26,6 @@ const Intro = () => (
       </div>
     </div>
 
-    {/* <h1 className="title is-1">hello</h1>
-    <h2 className="subtitle is-5">Lorem, ipsum.</h2>
-    <a href="#" className="button is-primary">Link</a> */}
   </section>
 );
 

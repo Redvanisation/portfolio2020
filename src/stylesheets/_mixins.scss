@@ -4,3 +4,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+@mixin boxShadowBlack {
+  box-shadow: 0 .2rem .5rem rgba($color-black, .5);
+}

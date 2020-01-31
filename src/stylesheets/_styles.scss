@@ -12,24 +12,7 @@
     position: relative;
 }
 
-.hero {
-    background-color: $color-primary-light;
-    // clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90vh);
-    -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 100%, 68% 93%, 29% 96%, 0 90%, 0 0);
-    clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 100%, 68% 93%, 29% 96%, 0 90%, 0 0);
-    position: relative;
-    z-index: 1000;
-
-}
-
 .is-middle {
     @include absCenter;
     width: 100%;
-}
-
-.logo {
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
-    z-index: 9999;
 }
