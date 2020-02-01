@@ -5,15 +5,15 @@ const Intro = () => (
 
     <div className="columns is-centered is-middle has-text-centered">
       <div className="column is-2">
-        <h1 className="title">
+        <h2 className="title">
           Legal text title
-        </h1>
+        </h2>
         <h2 className="subtitle">
         Legal text
         </h2>
       </div>
       <div className="column is-5">
-        <h1 className="title is-1">Vector</h1>
+        <h2 className="title is-1">Vector</h2>
         <a href="#" className="button is-full">Download Resume</a>
       </div>
       <div className="column is-2">
