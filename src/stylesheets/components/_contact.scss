@@ -1,11 +1,14 @@
 .contact {
   position: relative;
   z-index: 9;
-  margin-top: -10rem;
-  padding-top: 12rem;
+  margin-top: -15rem;
+  padding-top: 15rem;
   padding-bottom: 10rem;
-  background-color: $color-primary-light;
   @include sectionBottom;
+
+  &__form-inputs {
+    background-color: transparent;
+  }
 
   &__title {
 

@@ -8,17 +8,17 @@ const Contact = () => (
       <div className="field">
         {/* <label className="label">Name</label> */}
         <div className="control">
-          <input className="input" type="text" placeholder="Name" />
+          <input className="input contact__form-inputs" type="text" placeholder="Name" />
         </div>
       </div>
 
       <div className="field">
         {/* <label className="label">Email</label> */}
         <div className="control">
-          <input className="input" type="email" placeholder="Email" />
+          <input className="input contact__form-inputs" type="email" placeholder="Email" />
         </div>
       </div>
-      <textarea className="textarea" placeholder="Message" rows="10" />
+      <textarea className="textarea contact__form-inputs" placeholder="Message" rows="10" />
       <input type="submit" className="button" />
     </form>
 

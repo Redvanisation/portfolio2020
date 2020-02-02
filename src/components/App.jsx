@@ -6,12 +6,10 @@ import Projects from '../containers/Projects';
 import Contact from '../containers/Contact';
 import Activity from '../containers/Activity';
 import Footer from './Footer';
-import DarkModeToggle from './darkMode/darkModeToggle';
 
 
 const App = () => (
   <div className="app">
-    <DarkModeToggle />
     <Nav />
     <Social />
     <Header />

@@ -1,21 +1,9 @@
+.header {
+  position: relative;
+}
 
 .hero {
-  // clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90vh);
   @include sectionBottom;
   position: relative;
   z-index: 1000;
-}
-
-body.light-mode {
-  .hero {
-
-    background-color: $color-primary-light;
-  }
-}
-
-body.dark-mode {
-  .hero {
-    background-color: $color-primary-dark;
-    color: $color-text-light !important;
-  }
 }

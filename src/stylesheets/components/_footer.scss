@@ -2,10 +2,8 @@
   margin-top: -10rem;
   padding-top: 12rem;
   padding-bottom: 10rem;
-  background-color: $color-secondary;
   
   &__logo {
-    color: $color-primary-light;
 
   }
 
@@ -15,7 +13,6 @@
     &--link,
     &--link:link,
     &--link:visited {
-      color: $color-primary-light;
 
       &:not(:last-child) {
         margin-right: .5rem;

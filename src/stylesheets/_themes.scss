@@ -1,0 +1,236 @@
+body.light-mode {
+  // NAVIGATION
+  .navigation {
+    &__button {
+        background-color: $color-text-dark;
+    }
+
+    &__background {
+      background-image: radial-gradient(rgba($color-text-dark, .98), rgba($color-primary, .98));
+    }
+
+    &__link {
+      &:link,
+      &:visited {
+          color: $color-primary;
+      }
+
+      &:hover,
+      &:active {
+          color: $color-primary;
+      }
+    }
+
+    &__icon {
+      &,
+      &::before,
+      &::after {
+          background-color: $color-primary;
+      }
+    }
+
+  }
+
+  // HERO SECTION
+  .hero {
+    background-color: $color-primary-light;
+    @include fadeBg;
+  }
+
+  .title,
+  .subtitle {
+    color: $color-text-dark;
+  }
+
+  .dark-mode-toggle {
+    & > button {
+      background-color: $color-text-dark;
+    }
+  }
+
+
+  // SOCIAL COMPONENT
+  .social {
+    &__item {
+      background-color: $color-text-dark;
+      &--icon {
+        color: $color-primary-light;
+      }
+    }
+  }
+
+  //PROJECTS SECTION
+  .projects {
+    background-color: $color-primary;
+
+    &__project {
+      background-color: $color-primary-light;
+
+      &__search {
+        color: $color-text-dark;
+      }
+
+      &--title {
+      }
+      
+      &--description {
+        color: $color-text-dark;
+
+      }
+    }
+  }
+
+  // CONTACT SECTION
+  .contact {
+    background-color: $color-primary-light;
+
+    &__form-inputs {
+      border: 2px solid $color-primary;
+      color: $color-text-dark;    
+    }
+  }
+
+  // ACTIVITY SECTION
+  .activity {
+    background-color: $color-primary;
+    color: $color-text-dark;
+  }
+
+  // FOOTER
+  .footer {
+    background-color: $color-secondary;
+    
+    &__logo {
+      color: $color-primary-light;
+    }
+
+    &__social {
+      &--link,
+      &--link:link,
+      &--link:visited {
+        color: $color-primary-light;
+      }
+    }
+  }
+
+}
+
+body.dark-mode {
+  // NAVIGATION
+  .navigation {
+    &__button {
+        background-color: $color-text-light;
+    }
+
+    &__background {
+      background-image: radial-gradient(rgba($color-text-light, .98), rgba($color-primary-dark, .98));
+    }
+
+    &__link {
+      &:link,
+      &:visited {
+          color: $color-primary-dark;
+      }
+
+      &:hover,
+      &:active {
+          color: $color-primary;
+      }
+    }
+
+    &__icon {
+      &,
+      &::before,
+      &::after {
+          background-color: $color-primary-dark;
+      }
+    }
+  }
+
+  // HERO SECTION
+  .hero {
+    background-color: $color-primary-dark;
+    @include fadeBg;
+  }
+
+  .title,
+  .subtitle {
+    color: $color-text-light;
+  }
+
+  .dark-mode-toggle {
+    & > button {
+      background-color: $color-primary;
+    }
+  }
+
+  // SOCIAL COMPONENT
+  .social {
+    &__item {
+      background-color: $color-text-light;
+      &--icon {
+        color: $color-primary-dark;
+      }
+    }
+  }
+
+  //PROJECTS SECTION
+  .projects {
+    background-color: $color-primary-dark-light;
+
+    &__search {
+      color: $color-text-light;
+    }
+
+    &__project {
+      background-color: $color-primary-dark;
+
+      &--title {
+
+      }
+
+      &--description {
+        color: $color-text-light;
+
+      }
+    }
+  }
+
+  // CONTACT SECTION
+  .contact {
+    background-color: $color-primary-dark;
+
+    &__form-inputs {
+      border: 2px solid $color-primary-dark-light;
+      color: $color-text-light;    
+
+      &::-webkit-input-placeholder {
+        color: $color-text-light;
+      }
+    }
+  }
+
+  // ACTIVITY SECTION
+  .activity {
+    background-color: $color-primary-dark-light;
+    color: $color-text-light;
+  }
+
+  // FOOTER
+  .footer {
+    background-color: $color-secondary;
+    
+    &__logo {
+      color: $color-primary-light;
+    }
+
+    &__social {
+      &--link,
+      &--link:link,
+      &--link:visited {
+        color: $color-primary-light;
+      }
+    }
+  }
+  
+}

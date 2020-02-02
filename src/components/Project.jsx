@@ -2,8 +2,8 @@ import React from 'react';
 
 const Project = ({ name, description }) => (
   <div className="projects__project column">
-    <h3>{name}</h3>
-    <p>{description}</p>
+    <h3 className="title is-4 projects__project--title">{name}</h3>
+    <p className="projects__project--description">{description}</p>
   </div>
 );
 

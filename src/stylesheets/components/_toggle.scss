@@ -1,0 +1,46 @@
+.dark-mode-toggle > button {
+  color: #999;
+}
+
+.dmcheck {
+  display: none;
+}
+
+.dark-mode-toggle {
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  top: 6rem;
+  left: 2.5rem;
+  z-index: 1001;
+
+  & > button {
+    color: #c49103;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    @include absCenter;
+    @include boxShadowBlack;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 100%;
+    transition: all .2s;
+
+    &:last-child {
+      color: $color-primary;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:hover {
+      transform: translate(-50%, -55%);
+    }
+
+    &:active {
+      transform: translate(-50%, -52%);
+    }
+  }
+}
