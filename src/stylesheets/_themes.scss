@@ -37,10 +37,15 @@ body.light-mode {
     @include fadeBg;
   }
 
+  .brain {
+    content: url('../assets/BrainLight.svg');
+  }
+
   .title,
   .subtitle {
     color: $color-text-dark;
   }
+
 
   .dark-mode-toggle {
     & > button {
@@ -64,7 +69,7 @@ body.light-mode {
     background-color: $color-primary;
 
     &__project {
-      background-color: $color-primary-light;
+      // background-color: $color-primary-light;
 
       &__search {
         color: $color-text-dark;
@@ -151,6 +156,10 @@ body.dark-mode {
   .hero {
     background-color: $color-primary-dark;
     @include fadeBg;
+  }
+
+  .brain {
+    content: url('../assets/BrainDark.svg');
   }
 
   .title,

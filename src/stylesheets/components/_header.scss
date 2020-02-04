@@ -7,3 +7,18 @@
   position: relative;
   z-index: 1000;
 }
+
+.brain {
+  background-size: auto;
+  background-repeat: no-repeat;
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 25rem;
+}
+
+@media only screen and (max-width: 770px) {
+  .brain {
+    width: 15rem;
+    padding: 0;
+  }
+}

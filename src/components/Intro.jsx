@@ -2,8 +2,7 @@ import React from 'react';
 
 const Intro = () => (
   <section className="hero is-fullheight">
-
-    <div className="columns is-centered is-middle has-text-centered">
+    <div className="columns is-centered is-middle has-text-centered is-vcentered">
       <div className="column is-2">
         <h2 className="title">
           Legal text title
@@ -12,8 +11,9 @@ const Intro = () => (
         Legal text
         </h2>
       </div>
-      <div className="column is-5">
-        <h2 className="title is-1">Vector</h2>
+      <div className="column is-5 middle-div">
+        <div><img className="brain image" alt="" /></div>
+        
         <a href="#" className="button is-full">Download Resume</a>
       </div>
       <div className="column is-2">
