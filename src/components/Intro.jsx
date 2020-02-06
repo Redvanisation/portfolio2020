@@ -3,7 +3,7 @@ import React from 'react';
 const Intro = () => (
   <section className="hero is-fullheight">
     <div className="columns is-centered is-middle has-text-centered is-vcentered">
-      <div className="column is-2">
+      <div className="column is-2 hero__side-title">
         <h2 className="title">
           Former
         </h2>
@@ -14,14 +14,13 @@ const Intro = () => (
       <div className="column is-5 middle-div">
         <div><img className="brain image" alt="" /></div>
         
-        <a href="#" className="button is-full">Resume</a>
       </div>
-      <div className="column is-2">
+      <div className="column is-2 hero__side-title">
         <h1 className="title">
-          Current
+          .then(
         </h1>
         <h2 className="subtitle">
-          Software Developer
+          => Software Developer)
         </h2>
       </div>
     </div>

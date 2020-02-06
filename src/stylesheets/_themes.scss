@@ -82,6 +82,20 @@ body.light-mode {
         color: $color-text-dark;
 
       }
+
+      &--link,
+      &--link:link,
+      &--link:visited {
+        color: $color-text-dark;
+
+        &:not(:last-child) {
+          border-right: 2px solid $color-text-dark;
+        }
+
+        &:hover {
+          color: $color-secondary;
+        }
+      }
     }
   }
 
@@ -126,6 +140,11 @@ body.light-mode {
   .button {
     border: 3px solid $color-primary;
     color: $color-text-dark;
+        
+    &__resume {
+      border: 3px solid $color-primary-light;
+
+    }
   }
 
 }
@@ -212,6 +231,20 @@ body.dark-mode {
         color: $color-text-light;
 
       }
+
+      &--link,
+      &--link:link,
+      &--link:visited {
+        color: $color-text-light;
+
+        &:not(:last-child) {
+          border-right: 2px solid $color-text-light;
+        }
+
+        &:hover {
+          color: $color-secondary;
+        }
+      }
     }
   }
 
@@ -260,6 +293,13 @@ body.dark-mode {
   .button {
     border: 3px solid $color-primary-dark-light;
     color: $color-text-light;
+    
+    &__resume {
+      border: 3px solid $color-primary-dark;
+
+    }
   }
+
+  
   
 }

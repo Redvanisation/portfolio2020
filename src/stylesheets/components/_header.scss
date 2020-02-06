@@ -16,10 +16,18 @@
   width: 30rem;
 }
 
+
 @media only screen and (max-width: 770px) {
   .brain {
     margin: 2rem auto;
     width: 15rem;
     padding: 0;
+  }
+
+  .hero {
+
+    &__side-title {
+      // display: none;
+    }
   }
 }
