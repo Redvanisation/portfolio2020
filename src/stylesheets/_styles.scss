@@ -30,6 +30,26 @@ body.light-mode {
   padding: 0;
 }
 
+.button {
+  background-color: transparent;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: .5rem 2rem;
+  height: auto;
+  outline: none;
+  margin: 1rem 0;
+  transition: .2s;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.button:active {
+  transform: translateY(-1px);
+}
+
 .trans {
   opacity: 0;
 }

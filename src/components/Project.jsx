@@ -1,15 +1,15 @@
+/* eslint-disable global-require */
 import React from 'react';
-import ProjectImage from './ProjectImage';
 
 const Project = ({ name, description }) => (
   <div className="projects__project column">
-    <div className="projects__project--description">
-
-      <h3 className="title is-4 projects__project--title">{name}</h3>
-      {description}
-      {/* <p className="projects__project--description">{description}</p> */}
-    </div>
-    <ProjectImage url={require('../assets/mac.png')} />
+    <figure className="projects__project--card">
+      <img src={require('../assets/mcb.png')} alt="" className="projects__project--img" />
+      <figcaption className="projects__project--description-div">
+        <h3 className="projects__project--title text-colored">{name}</h3>
+        <p className="projects__project--description">{description}</p>
+      </figcaption>
+    </figure>
   </div>
 );
 

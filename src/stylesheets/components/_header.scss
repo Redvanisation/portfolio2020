@@ -11,13 +11,14 @@
 .brain {
   background-size: auto;
   background-repeat: no-repeat;
-  margin: 1rem auto;
+  margin: 0 auto;
   padding: 1rem;
-  width: 25rem;
+  width: 30rem;
 }
 
 @media only screen and (max-width: 770px) {
   .brain {
+    margin: 2rem auto;
     width: 15rem;
     padding: 0;
   }
