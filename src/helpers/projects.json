@@ -1,31 +1,31 @@
 [
   {
     "id": 1,
-    "title": "Project One",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, veritatis.",
-    "live": "#",
-    "github": "#"
+    "title": "Tech Talks",
+    "description": "Full stack app made with: React/Redux, Ruby on Rails, Webpacker, Sass, Bootstrap and RSpec.",
+    "live": "https://tech--talks.herokuapp.com/",
+    "github": "https://github.com/Redvanisation/Tech-Talks/tree/feature/techtalks"
   },
   {
     "id": 2,
-    "title": "Project Two",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, veritatis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, veritatis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, veritatis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, veritatis.",
-    "live": "#",
-    "github": "#"
+    "title": "Bookstore",
+    "description": "Bookstore project made with: React, Redux and Sass.",
+    "live": "https://bookstore-cared.herokuapp.com/",
+    "github": "https://github.com/Redvanisation/Bookstore"
   },
   {
     "id": 3,
-    "title": "Project Three",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, veritatis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, veritatis.",
-    "live": "#",
-    "github": "#"
+    "title": "Battleship Game",
+    "description": "Battleship game made with: HTML5, CSS3, ES6 JS, Webpack, ES6 Modules, Babel, Jest.",
+    "live": "https://cdn.statically.io/gh/Redvanisation/Battleship/feature/battleship/dist/index.html",
+    "github": "https://github.com/Redvanisation/Battleship"
   },
   {
     "id": 4,
-    "title": "Project Four",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, veritatis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, veritatis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, veritatis.",
-    "live": "#",
-    "github": "#"
+    "title": "To-do List App",
+    "description": "To-do list app made with: HTML5, CSS3, ES6 JS, Local Storage, ES6 Modules.",
+    "live": "https://rawcdn.githack.com/Redvanisation/Todo-list/dc95cf18d1646a2121fb6912f485c7c5dc69f3f3/dist/index.html",
+    "github": "https://github.com/Redvanisation/Todo-list"
   }
 ]
 
