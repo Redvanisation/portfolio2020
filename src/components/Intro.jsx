@@ -4,7 +4,7 @@ const Intro = () => (
   <section className="hero is-fullheight">
     <div className="columns is-centered is-middle has-text-centered is-vcentered">
       <div className="column is-2 hero__side-title">
-        <h2 className="title">
+        <h2 className="header-title title">
           Former
         </h2>
         <h2 className="subtitle">
@@ -16,7 +16,7 @@ const Intro = () => (
         
       </div>
       <div className="column is-2 hero__side-title">
-        <h1 className="title">
+        <h1 className="title header-title ">
           .then(
         </h1>
         <h2 className="subtitle">

@@ -135,11 +135,22 @@ body.light-mode {
     }
 
     &__social {
+      &--title {
+        color: $color-primary-light;
+      }
+
       &--link,
       &--link:link,
       &--link:visited {
         color: $color-primary-light;
+        transition: color .2s;
+
+        &:hover {
+          color: $color-text-dark;
+        }
       }
+
+
     }
   }
 
@@ -304,6 +315,10 @@ body.dark-mode {
     background-color: $color-secondary;
     
     &__logo {
+      color: $color-primary-light;
+    }
+
+    &--title {
       color: $color-primary-light;
     }
 
