@@ -1,8 +1,8 @@
 .social {
   display: inline-block;
   position: fixed;
-  top: 10rem;
-  right: 1rem;
+  top: 8rem;
+  right: .5rem;
   z-index: 1001;
   
   &__item {
@@ -33,6 +33,17 @@
     &--icon {
       @include absCenter;
       font-size: 1.2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .social {
+    top: 6rem;
+    right: .3rem;
+    
+    &__item {
+      margin-bottom: .5rem;
     }
   }
 }

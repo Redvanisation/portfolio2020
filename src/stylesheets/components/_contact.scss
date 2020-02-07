@@ -6,15 +6,51 @@
   padding-bottom: 10rem;
   @include sectionBottom;
 
-  &__form-inputs {
-    background-color: transparent;
+  &__content-div {
+    padding: 2rem;
+
+    &--description {
+      padding-left: 2rem;
+    }
+
+    &--hr {
+      width: 2px;
+      margin: .5rem 4rem;
+      height: 250px;
+    }
+
+    &--form {
+      max-width: 90%;
+      
+    }
+
+    &--form-inputs {
+
+      background-color: transparent;
+    }
   }
 
-  &__title {
+}
 
-  }
+@media only screen and (max-width: 770px) {
 
-  &__form {
-    max-width: 50%;
+  .contact {
+
+    &__content-div {
+      padding: 2rem;
+
+      &--description {
+        margin-right: 0;
+        padding-right: 0;
+        border-right: none !important;
+      }
+
+      &--hr {
+        // display: block;
+        width: 60%;
+        margin: 4rem auto;
+        height: 2px;
+      }
+    }
   }
 }

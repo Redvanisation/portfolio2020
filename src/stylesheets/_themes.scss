@@ -103,9 +103,20 @@ body.light-mode {
   .contact {
     background-color: $color-primary-light;
 
-    &__form-inputs {
-      border: 2px solid $color-primary;
-      color: $color-text-dark;    
+    &__content-div {
+      &--description {
+        color: $color-text-dark;
+        // border-right: 2px solid $color-text-dark;
+      }
+
+      &--hr {
+        background-color: $color-text-dark;
+      }
+
+      &--form-inputs {
+        border: 2px solid $color-primary;
+        color: $color-text-dark; 
+      }
     }
   }
 
@@ -146,6 +157,16 @@ body.light-mode {
 
     }
   }
+
+  // @media only screen and (max-width: 770px) {
+  //   .contact {
+  //     &__content-div {
+  //       &--hr {
+  //         background-color: $color-text-dark;
+  //       }
+  //     }
+  //   }
+  // }
 
 }
 
@@ -252,12 +273,22 @@ body.dark-mode {
   .contact {
     background-color: $color-primary-dark;
 
-    &__form-inputs {
-      border: 2px solid $color-primary-dark-light;
-      color: $color-text-light;    
-
-      &::-webkit-input-placeholder {
+    &__content-div {
+      &--description {
         color: $color-text-light;
+      }
+
+      &--hr {
+        background-color: $color-text-light;
+      }
+
+      &--form-inputs {
+        border: 2px solid $color-primary-dark-light;
+        color: $color-text-light;    
+  
+        &::-webkit-input-placeholder {
+          color: $color-text-light;
+        }
       }
     }
   }
@@ -297,6 +328,19 @@ body.dark-mode {
     &__resume {
       border: 3px solid $color-primary-dark;
 
+    }
+  }
+
+  @media only screen and (max-width: 770px) {
+    .contact {
+      &__content-div {
+        &--descripton {
+          color: $color-text-light;
+        }
+        // &--hr {
+        //   background-color: $color-text-light;
+        // }
+      }
     }
   }
 

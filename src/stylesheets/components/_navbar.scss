@@ -168,3 +168,30 @@
       transform: rotate(-130deg);
   }
 }
+
+@media only screen and (max-width: 770px) {
+    .navigation {
+      
+        &__button,
+        &__background {
+            height: 3.5rem;
+            width: 3.5rem;
+            top: .3rem;
+            right: .3rem;
+        }
+
+        &__icon {
+            position: relative;
+            margin-top: 1.7rem;
+      
+            &,
+            &::before,
+            &::after {
+                width: 1.5rem;
+                height: 2px;
+                display: inline-block;
+            }
+        }
+
+    }
+}
