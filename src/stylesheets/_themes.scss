@@ -41,6 +41,10 @@ body.light-mode {
     content: url('../assets/BrainLight.svg');
   }
 
+ .brain::before {
+    content: url('../assets/BrainLight.svg');  height: 10px;
+  }
+
   .title,
   .subtitle {
     color: $color-text-dark;
@@ -223,6 +227,10 @@ body.dark-mode {
     content: url('../assets/BrainDark.svg');
   }
 
+ .brain::before {
+    content: url('../assets/BrainDark.svg');  height: 10px;
+  }
+
   .title,
   .subtitle {
     color: $color-text-light;
@@ -253,7 +261,6 @@ body.dark-mode {
     }
 
     &__project {
-      // background-color: $color-primary-dark;
 
       &--title {
 
