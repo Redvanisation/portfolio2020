@@ -24,7 +24,7 @@ class Nav extends Component {
             <div className="navigation">
               <input type="checkbox" className="navigation__checkbox" id="navi-toggle" onClick={this.showHideMenu} checked={checked ? true : false} readOnly />
               <label htmlFor="navi-toggle" className="navigation__button">
-                  <span className="navigation__icon">&nbsp;</span>
+                <span className="navigation__icon">&nbsp;</span>
               </label>
           
               <div className="navigation__background">&nbsp;</div>
