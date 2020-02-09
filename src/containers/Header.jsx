@@ -4,7 +4,7 @@ import DarkModeToggle from '../components/darkMode/darkModeToggle';
 import Intro from '../components/Intro';
 
 const Header = () => (
-  <div className="header">
+  <div className="header" id="home">
     <Logo />
     <DarkModeToggle />
     <Intro />

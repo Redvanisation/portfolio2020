@@ -12,16 +12,16 @@ const Nav = () => (
     <nav className="navigation__nav">
         <ul className="navigation__list">
             <li className="navigation__item">
-                <a href="#section-about" className="navigation__link">Main</a>
+                <a href="#home" className="navigation__link">Home</a>
             </li>
             <li className="navigation__item">                    
-                <a href="#section-projects" className="navigation__link">Projects</a>
+                <a href="#projects" className="navigation__link">Projects</a>
             </li>
             <li className="navigation__item">
-                    <a href="#section-skills" className="navigation__link">Contact</a>
+                    <a href="#contact" className="navigation__link">Contact</a>
             </li>
             <li className="navigation__item">
-                    <a href="#section-contact" className="navigation__link">Activity</a>
+                    <a href="#activity" className="navigation__link">Activity</a>
             </li>
         </ul>
     </nav>

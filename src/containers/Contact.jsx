@@ -3,7 +3,7 @@ import ContactForm from '../components/ContactForm';
 
 const Contact = () => (
   <section className="contact has-text-centered">
-    <h2 className="section-title contact__title title is-2">Contact</h2>
+    <h2 className="section-title contact__title title is-2" id="contact">Contact</h2>
     <div className="columns contact__content-div">
       <div className="column contact__content-div--description">
         <h3 className="contact__content-div--title title is-4">About me</h3>
