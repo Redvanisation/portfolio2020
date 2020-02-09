@@ -13,9 +13,14 @@
   }
   
   &__quote {
-    // padding-bottom: 1rem;
     text-transform: uppercase;
     font-weight: 200;
+    line-height: 1.5;
+
+    &--span {
+      color: $color-secondary;
+      font-weight: 700 !important;
+    }
   }
   
   &__search {
@@ -100,4 +105,22 @@
     }
   }
 
+}
+
+
+@media only screen and (max-width: 770px) {
+  .projects {
+      &__quote {
+        font-size: 1.1rem !important;
+        padding: 0 2rem;
+        
+        &--line-1 {
+          display: block;
+          margin-bottom: .2rem;
+        }
+        &--line-2 {
+          display: block;
+        }
+      }
+  }
 }

@@ -96,13 +96,17 @@ body.light-mode {
 }
 
 @media only screen and (max-width: 770px) {
+  .section-title {
+    font-size: 1.7rem !important;
+  }
+
   .section-title::before {
-    width: 20%;
+    width: 18%;
   }
 }
 
 @media only screen and (max-width: 550px) {
   .section-title::before {
-    width: 40%;
+    width: 35%;
   }
 }
