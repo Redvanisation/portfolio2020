@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-scroll';
+
 
 class Nav extends Component {
     constructor() {
@@ -28,18 +30,50 @@ class Nav extends Component {
           
               <nav className="navigation__nav" onClick={this.showHideMenu}>
                   <ul className="navigation__list">
-                      <li className="navigation__item">
-                          <a href="#home" className="navigation__link" onClick={this,this.showHideMenu}>Home</a>
-                      </li>
-                      <li className="navigation__item">                    
-                          <a href="#projects" className="navigation__link" onClick={this,this.showHideMenu}>Projects</a>
-                      </li>
-                      <li className="navigation__item">
-                              <a href="#contact" className="navigation__link" onClick={this,this.showHideMenu}>Contact</a>
-                      </li>
-                      <li className="navigation__item">
-                              <a href="#activity" className="navigation__link" onClick={this,this.showHideMenu}>Activity</a>
-                      </li>
+                    <li className="navigation__item">
+                      <Link
+                        className="navigation__link"
+                        to="home"
+                        smooth
+                        duration={500}
+                        onClick={this.showHideMenu}
+                      >
+                        Home
+                      </Link>
+                    </li>
+                    <li className="navigation__item">
+                      <Link
+                        className="navigation__link"
+                        to="projects"
+                        smooth
+                        duration={500}
+                        onClick={this.showHideMenu}
+                      >
+                        Projects
+                      </Link>
+                    </li>
+                    <li className="navigation__item">
+                      <Link
+                        className="navigation__link"
+                        to="contact"
+                        smooth
+                        duration={500}
+                        onClick={this.showHideMenu}
+                      >
+                        Contact
+                      </Link>
+                    </li>
+                    <li className="navigation__item">
+                      <Link
+                        className="navigation__link"
+                        to="activity"
+                        smooth
+                        duration={500}
+                        onClick={this.showHideMenu}
+                      >
+                        Activity
+                      </Link>
+                    </li>
                   </ul>
               </nav>
             </div>

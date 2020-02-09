@@ -78,8 +78,8 @@
   }
 
   &__link {
-      &:link,
-      &:visited {
+    //   &:link,
+    //   &:visited {
           display: inline-block;
           font-size: 2rem;
           font-weight: 200;
@@ -98,7 +98,7 @@
               display: inline-block;
               margin-right: 1.5rem;
           }
-      }
+    //   }
 
       &:hover,
       &:active {

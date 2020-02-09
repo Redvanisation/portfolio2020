@@ -10,10 +10,7 @@ body.light-mode {
     }
 
     &__link {
-      &:link,
-      &:visited {
-          color: $color-primary;
-      }
+      color: $color-primary;
 
       &:hover,
       &:active {
@@ -192,10 +189,7 @@ body.dark-mode {
     }
 
     &__link {
-      &:link,
-      &:visited {
-          color: $color-primary-dark;
-      }
+      color: $color-primary-dark;
 
       &:hover,
       &:active {
