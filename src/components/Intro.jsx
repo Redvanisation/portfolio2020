@@ -13,14 +13,14 @@ const Intro = () => (
       </div>
       <div className="column is-5 middle-div">
         <div className="brain"><img className="image" alt="" /></div>
-        
+
       </div>
       <div className="column is-2 hero__side-title">
         <h1 className="title header-title ">
           .then(
         </h1>
         <h2 className="subtitle">
-          => Software Developer)
+          =&gt; Software Developer)
         </h2>
       </div>
     </div>

@@ -1,33 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Notification extends Component {
-  constructor() {
-    super();
-    this.state = {
-      top: '-200px',
-    };
-  }
-
-  showNotification() {
-    this.setState({
-      top: 0,
-    }, () => {
-      setTimeout(() => {
-        this.setState({
-          top: '-200px',
-        });
-      }, 2000);
-    });
-  }
-
-  render() {
-    return (
-      <div className="notificiation">
-        
-        <p className="notification__message" style={{ top:this.state.top }}>{this.props.message}</p>
-      </div>
-    );
-  }
-}
+const Notification = ({ top, notification }) => (
+  <div className="notificiation">
+    <p className="notification__message title is-4" style={{ top: `${top}px` }}>{notification}</p>
+  </div>
+);
 
 export default Notification;

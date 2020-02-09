@@ -78,10 +78,9 @@ class Nav extends Component {
                   </ul>
               </nav>
             </div>
-          );
-          
-    }
-} 
+    );
+  }
+}
 
 
 export default Nav;

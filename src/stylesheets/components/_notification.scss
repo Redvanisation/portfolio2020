@@ -2,14 +2,17 @@
   
   &__message {
     position: fixed;
-    top: 0;
     left: 0;
     height: 2px;
     width: 100%;
-    z-index: 9999999;
-    padding: 2rem 3rem;
+    z-index: 99999;
+    margin-top: -20px;
+    padding: 3rem;
     background-color: $color-secondary;
-    color: white;
+    color: $color-text-light !important;
+    font-weight: 400 !important;
     text-align: center;
+    letter-spacing: 2px;
+    transition: all .3s ease-in-out;
   }
 }

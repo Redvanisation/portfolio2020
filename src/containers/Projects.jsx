@@ -1,5 +1,4 @@
 import React from 'react';
-// import Search from '../components/Search';
 import Project from '../components/Project';
 import theProjects from '../helpers/projects.json';
 

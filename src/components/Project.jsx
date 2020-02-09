@@ -1,7 +1,9 @@
 /* eslint-disable global-require */
 import React from 'react';
 
-const Project = ({ name, description, live, github }) => (
+const Project = ({
+  name, description, live, github,
+}) => (
   <div className="projects__project column">
     <figure className="projects__project--card">
       <img src={require('../assets/mcb.png')} alt="" className="projects__project--img" />
