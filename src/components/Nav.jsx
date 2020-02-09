@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { Component } from 'react';
 import { Link } from 'react-scroll';
 
@@ -21,7 +22,7 @@ class Nav extends Component {
         const { checked } = this.state;
         return (
             <div className="navigation">
-              <input type="checkbox" className="navigation__checkbox" id="navi-toggle" onClick={this.showHideMenu} checked={checked ? true : false} />
+              <input type="checkbox" className="navigation__checkbox" id="navi-toggle" onClick={this.showHideMenu} checked={checked ? true : false} readOnly />
               <label htmlFor="navi-toggle" className="navigation__button">
                   <span className="navigation__icon">&nbsp;</span>
               </label>
