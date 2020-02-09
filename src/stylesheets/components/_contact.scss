@@ -9,6 +9,11 @@
   &__content-div {
     padding: 2rem;
 
+    &--title {
+      margin-bottom: 1rem;
+      font-weight: 400 !important;
+    }
+
     &--description {
       padding-left: 2rem;
     }
@@ -16,16 +21,15 @@
     &--hr {
       width: 2px;
       margin: .5rem 4rem;
-      height: 250px;
+      height: 300px;
     }
 
     &--form {
       max-width: 90%;
-      
+      margin-top: .5rem;
     }
 
     &--form-inputs {
-
       background-color: transparent;
     }
   }
@@ -47,7 +51,7 @@
 
       &--hr {
         // display: block;
-        width: 60%;
+        width: 70%;
         margin: 4rem auto;
         height: 2px;
       }

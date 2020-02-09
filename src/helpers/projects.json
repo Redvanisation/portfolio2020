@@ -15,14 +15,14 @@
   },
   {
     "id": 3,
-    "title": "Battleship Game",
+    "title": "Battleship",
     "description": "Battleship game made with: HTML5, CSS3, ES6 JS, Webpack, ES6 Modules, Babel, Jest.",
     "live": "https://cdn.statically.io/gh/Redvanisation/Battleship/feature/battleship/dist/index.html",
     "github": "https://github.com/Redvanisation/Battleship"
   },
   {
     "id": 4,
-    "title": "To-do List App",
+    "title": "To-do List",
     "description": "To-do list app made with: HTML5, CSS3, ES6 JS, Local Storage, ES6 Modules.",
     "live": "https://rawcdn.githack.com/Redvanisation/Todo-list/dc95cf18d1646a2121fb6912f485c7c5dc69f3f3/dist/index.html",
     "github": "https://github.com/Redvanisation/Todo-list"

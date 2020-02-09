@@ -166,11 +166,6 @@ body.light-mode {
   .button {
     border: 3px solid $color-primary;
     color: $color-text-dark;
-        
-    &__resume {
-      border: 3px solid $color-primary-light;
-
-    }
   }
 
   // @media only screen and (max-width: 770px) {
@@ -346,11 +341,7 @@ body.dark-mode {
   .button {
     border: 3px solid $color-primary-dark-light;
     color: $color-text-light;
-    
-    &__resume {
-      border: 3px solid $color-primary-dark;
 
-    }
   }
 
   @media only screen and (max-width: 770px) {

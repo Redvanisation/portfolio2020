@@ -42,7 +42,7 @@ body.light-mode {
   z-index: -1;
   position: absolute;
   left: 50%;
-  top: 100%;
+  top: 115%;
   height: 15%;
   width: 28%;
   background-color: $color-secondary;
@@ -81,6 +81,10 @@ body.light-mode {
   outline: none;
   margin: 1rem 0;
   transition: .2s;
+
+  &__resume {
+    border: 3px solid $color-secondary !important;
+  }
 }
 
 .button:hover {
