@@ -2,9 +2,9 @@ import React from 'react';
 import Project from '../components/Project';
 import theProjects from '../helpers/projects.json';
 import imgProject1 from '../assets/mcb-techtalks.png';
-import imgProject2 from '../assets/mcb.png';
-import imgProject3 from '../assets/mcb.png';
-import imgProject4 from '../assets/mcb.png';
+import imgProject2 from '../assets/mcb-bookstore.png';
+import imgProject3 from '../assets/mcb-battleship.png';
+import imgProject4 from '../assets/mcb-todo.png';
 
 const part1 = theProjects.slice(0, 2);
 const part2 = theProjects.slice(2, theProjects.length);
