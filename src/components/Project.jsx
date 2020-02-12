@@ -2,11 +2,11 @@
 import React from 'react';
 
 const Project = ({
-  name, description, live, github,
+  name, description, live, github, image
 }) => (
   <div className="projects__project column">
     <figure className="projects__project--card">
-      <img src={require('../assets/mcb.png')} alt="" className="projects__project--img" />
+      <img src={image} alt="" className="projects__project--img" />
       <figcaption className="projects__project--description-div">
         <h3 className="title projects__project--title text-colored header-title">{name}</h3>
         <p className="projects__project--description">{description}</p>

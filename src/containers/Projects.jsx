@@ -1,6 +1,10 @@
 import React from 'react';
 import Project from '../components/Project';
 import theProjects from '../helpers/projects.json';
+import imgProject1 from '../assets/mcb-techtalks.png';
+import imgProject2 from '../assets/mcb.png';
+import imgProject3 from '../assets/mcb.png';
+import imgProject4 from '../assets/mcb.png';
 
 const part1 = theProjects.slice(0, 2);
 const part2 = theProjects.slice(2, theProjects.length);
@@ -22,10 +26,12 @@ const Projects = () => (
     </div>
 
     <div className="columns projects__container">
-      {part1.map(prj => <Project key={prj.id} name={prj.title} description={prj.description} live={prj.live} github={prj.github} />)}
+      <Project key={part1[0].id} name={part1[0].title} description={part1[0].description} live={part1[0].live} github={part1[0].github} image={imgProject1} />
+      <Project key={part1[1].id} name={part1[1].title} description={part1[1].description} live={part1[1].live} github={part1[1].github} image={imgProject2} />
     </div>
     <div className="columns projects__container">
-      {part2.map(prj => <Project key={prj.id} name={prj.title} description={prj.description} live={prj.live} github={prj.github} />)}
+      <Project key={part2[0].id} name={part2[0].title} description={part2[0].description} live={part2[0].live} github={part2[0].github} image={imgProject3} />
+      <Project key={part2[1].id} name={part2[1].title} description={part2[1].description} live={part2[1].live} github={part2[1].github} image={imgProject4} />
     </div>
   </section>
 );
