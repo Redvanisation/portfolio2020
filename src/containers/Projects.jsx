@@ -20,8 +20,8 @@ const Projects = () => (
       </span>
     </h3>
     
-    <div className="projects__button-div">
-      <a href="#" className="button button__resume is-full">Resume</a>
+    <div className="btn-div">
+      <a href="#" className="button button__red is-full">Resume</a>
 
     </div>
 

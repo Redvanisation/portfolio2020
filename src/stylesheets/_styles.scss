@@ -67,8 +67,8 @@ body.light-mode {
   transform: translateX(-50%) rotate(-2deg);
 }
 
-.column {
-  // padding: 0;
+.btn-div {
+  margin-bottom: 3rem;
 }
 
 .button {
@@ -82,7 +82,7 @@ body.light-mode {
   margin: 1rem 0;
   transition: .2s;
 
-  &__resume {
+  &__red {
     border: 3px solid $color-secondary !important;
   }
 }

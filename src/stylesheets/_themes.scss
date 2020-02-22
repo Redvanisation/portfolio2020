@@ -70,7 +70,6 @@ body.light-mode {
     background-color: $color-primary;
 
     &__project {
-      // background-color: $color-primary-light;
 
       &__search {
         color: $color-text-dark;
@@ -81,7 +80,6 @@ body.light-mode {
       
       &--description {
         color: $color-text-dark;
-
       }
 
       &--link,
@@ -116,7 +114,7 @@ body.light-mode {
 
       &--form-inputs {
         border: 2px solid $color-primary;
-        color: $color-text-dark; 
+        color: $color-secondary;
       }
     }
   }
@@ -125,6 +123,18 @@ body.light-mode {
   .activity {
     background-color: $color-primary;
     color: $color-text-dark;
+
+    &__article {
+      &--link,
+      &--link:link,
+      &--link:visited {
+        color: $color-text-dark;
+
+        &:hover {
+          color: $color-secondary;
+        }
+      }
+    }
   }
 
   // FOOTER
@@ -304,6 +314,18 @@ body.dark-mode {
   .activity {
     background-color: $color-primary-dark-light;
     color: $color-text-light;
+
+    &__article {
+      &--link,
+      &--link:link,
+      &--link:visited {
+        color: $color-text-light;
+
+        &:hover {
+          color: $color-secondary;
+        }
+      }
+    }
   }
 
   // FOOTER

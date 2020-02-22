@@ -74,7 +74,7 @@ class ContactForm extends Component {
 
           <textarea className="textarea contact__content-div--form-inputs" value={message} onChange={this.handleChange.bind(this, 'message')} placeholder="Message" rows="5" name="message_html" required />
 
-          <input type="submit" value="Send" className="button" />
+          <input type="submit" value="Send" className="button button__red" />
         </form>
       </>
     );
