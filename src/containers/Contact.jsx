@@ -10,8 +10,8 @@ const Contact = ({ setShowNote, sendSuccess, sendError }) => (
       <div className="column contact__content-div--description">
         <h3 className="contact__content-div--title title is-4">About me</h3>
         <p className="contact__content-div--parag">
-          Hi, I’m Radouane, a web developer based in New York City.
-          I’m creative, analytical and very passionate about web development.
+          Hi, I&apos;m Radouane, a web developer based in New York City.
+          I&apos;m creative, analytical and very passionate about web development.
           I was previously a lawyer for over 5 years but my passion for web development made me choose a different path.
           through my time in web development I acquired professional-level skills including
           {' '}
@@ -21,7 +21,7 @@ const Contact = ({ setShowNote, sendSuccess, sendError }) => (
         </p>
 
         <p className="contact__content-div--parag">
-          I&aposm a maker at heart and in my free time I like to acquire as many skills as possible, whether it&aposs learning a new programming language, learning musical instruments, cooking or any other skill I can get the tools for. Both at work and in my personal life, I&aposm constantly chasing the satisfaction of a tangible finished product. When I&aposm not working or crafting, I also try to spend time giving back to the community, especially supporting new developers and contributing to apps that promote dev community meetups.
+          I&apos;m a maker at heart and in my free time I like to acquire as many skills as possible, whether it&apos;s learning a new programming language, learning musical instruments, cooking or any other skill I can get the tools for. Both at work and in my personal life, I&apos;m constantly chasing the satisfaction of a tangible finished product. When I&apos;m not working or crafting, I also try to spend time giving back to the community, especially supporting new developers and contributing to apps that promote dev community meetups.
         </p>
 
       </div>
