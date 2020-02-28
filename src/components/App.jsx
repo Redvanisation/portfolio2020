@@ -51,7 +51,7 @@ class App extends Component {
     const { msgSuccess, showNote } = this.state;
     return (
       <div className="app">
-        <Notification 
+        <Notification
           notification={msgSuccess ? 'Message Sent!' : 'Error Sending Message!'}
           top={showNote ? 0 : -200}
         />

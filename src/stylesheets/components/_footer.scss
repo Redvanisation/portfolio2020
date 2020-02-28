@@ -4,7 +4,14 @@
   padding-bottom: 10rem;
   
   &__logo {
+    width: 100px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    transition: all .3s;
 
+    &:hover {
+      transform: translateY(-2px);
+    }
   }
 
   &__social {

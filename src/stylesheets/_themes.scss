@@ -1,4 +1,13 @@
 body.light-mode {
+  // LOGO
+  .logo {
+    content: url('../assets/logoblack.svg');
+
+    &::before {
+      content: url('/assets/logoblack.svg');
+    }
+  }
+
   // NAVIGATION
   .navigation {
     &__button {
@@ -114,7 +123,6 @@ body.light-mode {
 
       &--form-inputs {
         border: 2px solid $color-primary;
-        color: $color-secondary;
       }
     }
   }
@@ -188,6 +196,15 @@ body.light-mode {
 }
 
 body.dark-mode {
+  // LOGO
+  .logo {
+    content: url('../assets/logowhite.svg');
+
+    &::before {
+      content: url('/assets/logowhite.svg');
+    }
+  }
+
   // NAVIGATION
   .navigation {
     &__button {

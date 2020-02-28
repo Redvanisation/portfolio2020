@@ -99,6 +99,11 @@ body.light-mode {
   opacity: 0;
 }
 
+.heighlight {
+  color: $color-secondary;
+  font-weight: 600;
+}
+
 @media only screen and (max-width: 770px) {
   .section-title {
     font-size: 1.7rem !important;

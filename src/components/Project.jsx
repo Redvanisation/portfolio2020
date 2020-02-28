@@ -1,8 +1,9 @@
 /* eslint-disable global-require */
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Project = ({
-  name, description, live, github, image
+  name, description, live, github, image,
 }) => (
   <div className="projects__project column">
     <figure className="projects__project--card">
@@ -18,5 +19,13 @@ const Project = ({
     </figure>
   </div>
 );
+
+Project.propTypes = {
+  name: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  live: PropTypes.string.isRequired,
+  github: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+};
 
 export default Project;

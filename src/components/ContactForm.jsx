@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import * as emailjs from 'emailjs-com';
 
 class ContactForm extends Component {
@@ -80,6 +81,11 @@ class ContactForm extends Component {
     );
   }
 }
+
+ContactForm.propTypes = {
+  setShowNote: PropTypes.instanceOf(Function).isRequired,
+  sendSuccess: PropTypes.instanceOf(Function).isRequired,
+};
 
 
 export default ContactForm;

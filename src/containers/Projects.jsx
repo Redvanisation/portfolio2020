@@ -1,10 +1,11 @@
+/* eslint-disable max-len */
 import React from 'react';
 import Project from '../components/Project';
 import theProjects from '../helpers/projects.json';
 import imgProject1 from '../assets/mcb-techtalks.png';
 import imgProject2 from '../assets/mcb-bookstore.png';
 import imgProject3 from '../assets/mcb-battleship.png';
-import imgProject4 from '../assets/mcb-todo.png';
+import imgProject4 from '../assets/insta-social.png';
 
 const part1 = theProjects.slice(0, 2);
 const part2 = theProjects.slice(2, theProjects.length);
@@ -13,15 +14,15 @@ const Projects = () => (
   <section className="projects block has-text-centered">
     <h2 className="section-title projects__title title is-2" id="projects">Featured Projects</h2>
     <h3 className="projects__quote title is-4">
-      <span className="projects__quote--line-1">I didn&apos;t invent the internet </span> 
+      <span className="projects__quote--line-1">I didn&apos;t invent the internet </span>
       <span className="projects__quote--line-2">
         I just make it
         <span className="projects__quote--span"> look good</span>
       </span>
     </h3>
-    
+
     <div className="btn-div">
-      <a href="#" className="button button__red is-full">Resume</a>
+      <a href="https://drive.google.com/file/d/1JSIXD5TRGYBBQ5b_-ZGaiEqBhuk0Yyjx/view?usp=sharing" className="button button__red is-full" target="_blank" rel="noopener noreferrer">Resume</a>
 
     </div>
 

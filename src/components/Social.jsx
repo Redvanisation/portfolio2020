@@ -6,18 +6,26 @@ import {
 
 const Social = () => (
   <div className="social">
-    <div className="social__item">
-      <a href="https://github.com/Redvanisation" target="_blank" rel="noreferrer noopener" className="social__item--link"><FaGithub className="social__item--icon" /></a>
-    </div>
-    <div className="social__item">
-      <a href="https://twitter.com/redvanisation" target="_blank" rel="noreferrer noopener" className="social__item--link"><FaTwitter className="social__item--icon" /></a>
-    </div>
-    <div className="social__item">
-      <a href="https://www.linkedin.com/in/redvan/" target="_blank" rel="noreferrer noopener" className="social__item--link"><FaLinkedinIn className="social__item--icon" /></a>
-    </div>
-    <div className="social__item">
-      <a href="https://dev.to/redvanisation" target="_blank" rel="noreferrer noopener" className="social__item--link"><FaDev className="social__item--icon" /></a>
-    </div>
+    <a href="https://github.com/Redvanisation" target="_blank" rel="noreferrer noopener" className="social__item--link social__item">
+      <div className="social__item">
+        <FaGithub className="social__item--icon" />
+      </div>
+    </a>
+    <a href="https://twitter.com/redvanisation" target="_blank" rel="noreferrer noopener" className="social__item--link">
+      <div className="social__item">
+        <FaTwitter className="social__item--icon" />
+      </div>
+    </a>
+    <a href="https://www.linkedin.com/in/redvan/" target="_blank" rel="noreferrer noopener" className="social__item--link">
+      <div className="social__item">
+        <FaLinkedinIn className="social__item--icon" />
+      </div>
+    </a>
+    <a href="https://dev.to/redvanisation" target="_blank" rel="noreferrer noopener" className="social__item--link">
+      <div className="social__item">
+        <FaDev className="social__item--icon" />
+      </div>
+    </a>
   </div>
 );
 

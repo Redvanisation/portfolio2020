@@ -12,7 +12,7 @@ const Intro = () => (
         </h2>
       </div>
       <div className="column is-5 middle-div">
-        <div className="brain"><img className="image" alt="" /></div>
+        <div className="brain"><img className="image" alt="brain" /></div>
 
       </div>
       <div className="column is-2 hero__side-title">

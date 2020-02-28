@@ -1,6 +1,21 @@
 .logo {
   position: absolute;
-  top: 1rem;
+  top: 1.5rem;
   left: 1rem;
+  width: 100px;
   z-index: 1001;
+  transition: all .3s;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
+  .logo {
+    top: .5rem;
+    left: .5rem;
+    width: 60px;
+  }
 }

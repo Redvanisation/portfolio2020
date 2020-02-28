@@ -22,6 +22,13 @@
   },
   {
     "id": 4,
+    "title": "Insta Social",
+    "description": "A full CRUD social network app made using the TDD technique using RSpec and Capybara, Ruby on Rails, Sass, Bootstrap, PostgreSQL and Omniauth.",
+    "live": "https://theinstasocial.herokuapp.com/",
+    "github": "https://github.com/Redvanisation/insta-social"
+  },
+  {
+    "id": 5,
     "title": "To-do List",
     "description": "To-do list app build with vanilla JavaScript, ES6 Modules, Webpack, HTML5 and CSS3 using CRUD actions to control the to-dos and using the Local Storage for saving.",
     "live": "https://rawcdn.githack.com/Redvanisation/Todo-list/dc95cf18d1646a2121fb6912f485c7c5dc69f3f3/dist/index.html",

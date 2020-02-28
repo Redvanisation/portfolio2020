@@ -16,17 +16,29 @@
 
     &--description {
       padding-left: 2rem;
+      margin-bottom: 4rem;
+    }
+
+
+    &--parag {
+      text-align: left;
+      font-size: 1.1rem;
+      line-height: 28px;
+
+      &:not(:last-child) {
+        margin-bottom: .5rem;
+      }
     }
 
     &--hr {
       width: 2px;
       margin: .5rem 4rem;
-      height: 300px;
+      height: 550px;
     }
 
     &--form {
       max-width: 90%;
-      margin-top: .5rem;
+      margin-top: 8rem;
     }
 
     &--form-inputs {
@@ -50,10 +62,28 @@
       }
 
       &--hr {
-        // display: block;
         width: 70%;
         margin: 4rem auto;
         height: 2px;
+      }
+
+      &--form {
+        margin-top: 2rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contact {
+
+    &__content-div {
+      &--parag {
+        font-size: 1rem;  
+
+        &:not(:last-child) {
+          margin-bottom: 1rem;
+        }
       }
     }
   }
