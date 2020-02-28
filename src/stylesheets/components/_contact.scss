@@ -1,0 +1,90 @@
+.contact {
+  position: relative;
+  z-index: 9;
+  margin-top: -25rem;
+  padding-top: 25rem;
+  padding-bottom: 10rem;
+  @include sectionBottom;
+
+  &__content-div {
+    padding: 2rem;
+
+    &--title {
+      margin-bottom: 1rem;
+      font-weight: 400 !important;
+    }
+
+    &--description {
+      padding-left: 2rem;
+      margin-bottom: 4rem;
+    }
+
+
+    &--parag {
+      text-align: left;
+      font-size: 1.1rem;
+      line-height: 28px;
+
+      &:not(:last-child) {
+        margin-bottom: .5rem;
+      }
+    }
+
+    &--hr {
+      width: 2px;
+      margin: .5rem 4rem;
+      height: 550px;
+    }
+
+    &--form {
+      max-width: 90%;
+      margin-top: 8rem;
+    }
+
+    &--form-inputs {
+      background-color: transparent;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 770px) {
+
+  .contact {
+
+    &__content-div {
+      padding: 2rem;
+
+      &--description {
+        margin-right: 0;
+        padding-right: 0;
+        border-right: none !important;
+      }
+
+      &--hr {
+        width: 70%;
+        margin: 4rem auto;
+        height: 2px;
+      }
+
+      &--form {
+        margin-top: 2rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contact {
+
+    &__content-div {
+      &--parag {
+        font-size: 1rem;  
+
+        &:not(:last-child) {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}

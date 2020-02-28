@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Tech Talks",
+    "description": "A responsive mobile first full stack app made with the TDD technique using: React/Redux, Ruby on Rails, Webpacker, Sass, Bootstrap, RSpec and Capybara.",
+    "live": "https://tech--talks.herokuapp.com/",
+    "github": "https://github.com/Redvanisation/Tech-Talks/tree/feature/techtalks"
+  },
+  {
+    "id": 2,
+    "title": "Bookstore",
+    "description": "A Bookstore app built with ReactJS and Redux implementing the CRUD actions and the functionality to store and filter books by category.",
+    "live": "https://romantic-jones-35e941.netlify.com/",
+    "github": "https://github.com/Redvanisation/Bookstore"
+  },
+  {
+    "id": 3,
+    "title": "Battleship",
+    "description": "The old school battleship game created with the TDD technique using Jest and vanilla JavaScript, ES6 modules, Webpack, Babel, HTML5 and CSS3.",
+    "live": "https://cdn.statically.io/gh/Redvanisation/Battleship/feature/battleship/dist/index.html",
+    "github": "https://github.com/Redvanisation/Battleship"
+  },
+  {
+    "id": 4,
+    "title": "Insta Social",
+    "description": "A full CRUD social network app made using the TDD technique using RSpec and Capybara, Ruby on Rails, Sass, Bootstrap, PostgreSQL and Omniauth.",
+    "live": "https://theinstasocial.herokuapp.com/",
+    "github": "https://github.com/Redvanisation/insta-social"
+  },
+  {
+    "id": 5,
+    "title": "To-do List",
+    "description": "To-do list app build with vanilla JavaScript, ES6 Modules, Webpack, HTML5 and CSS3 using CRUD actions to control the to-dos and using the Local Storage for saving.",
+    "live": "https://rawcdn.githack.com/Redvanisation/Todo-list/dc95cf18d1646a2121fb6912f485c7c5dc69f3f3/dist/index.html",
+    "github": "https://github.com/Redvanisation/Todo-list"
+  }
+]
+

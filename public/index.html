@@ -2,13 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
+    <meta property="og:image" content="./red.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="600">
+    <meta property="og:title" content="Redvanisation" />
+    <meta property="og:description" content="Website description." />
+
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -24,20 +27,49 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Redvanisation</title>
   </head>
   <body>
+    <script>
+      (function() {
+        // Change these if you use something different in your hook.
+        var storageKey = 'darkMode';
+        var classNameDark = 'dark-mode';
+        var classNameLight = 'light-mode';
+
+        function setClassOnDocumentBody(darkMode) {
+          document.body.classList.add(darkMode ? classNameDark : classNameLight);
+          document.body.classList.remove(darkMode ? classNameLight : classNameDark);
+        }
+        
+        var preferDarkQuery = '(prefers-color-scheme: dark)';
+        var mql = window.matchMedia(preferDarkQuery);
+        var supportsColorSchemeQuery = mql.media === preferDarkQuery;
+        var localStorageTheme = null;
+        try {
+          localStorageTheme = localStorage.getItem(storageKey);
+        } catch (err) {}
+        var localStorageExists = localStorageTheme !== null;
+        if (localStorageExists) {
+          localStorageTheme = JSON.parse(localStorageTheme);
+        }
+
+        // Determine the source of truth
+        if (localStorageExists) {
+          // source of truth from localStorage
+          setClassOnDocumentBody(localStorageTheme);
+        } else if (supportsColorSchemeQuery) {
+          // source of truth from system
+          setClassOnDocumentBody(mql.matches);
+          localStorage.setItem(storageKey, mql.matches);
+        } else {
+          // source of truth from document.body
+          var isDarkMode = document.body.classList.contains(classNameDark);
+          localStorage.setItem(storageKey, JSON.stringify(isDarkMode));
+        }
+      })();  
+    </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>

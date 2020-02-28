@@ -1,0 +1,35 @@
+.activity {
+  position: relative;
+  z-index: 8;
+  margin-top: -25rem;
+  padding-top: 30rem;
+  padding-bottom: 10rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  @include sectionBottom;
+
+  &__articles-div {
+    margin: 2rem auto;
+  }
+
+  &__article {
+    &--link,
+    &--link:link,
+    &--link:visited {
+      display: inline-block;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin: .5rem auto;
+      transition: all .2s;
+    }
+
+    &--icon {
+      font-size: 1.2rem;
+      margin-left: .3rem;
+    }
+  }
+
+  &__btn-div {
+    margin: 3rem auto;
+  }
+}
