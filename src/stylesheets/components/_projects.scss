@@ -1,11 +1,12 @@
 .projects {
+  @include sectionBottom;
+  
   margin-top: -10rem;
   padding-top: 15rem;
   padding-bottom: 10rem;
   position: relative;
   z-index: 10;
 
-  @include sectionBottom;
   background-color: $color-primary;
 
   &__title {
@@ -42,17 +43,14 @@
 
   &__container {
     margin: 0 1rem;
-    // padding-bottom: 2rem;
   }
   
   &__project {
-    // @include boxShadowBlack;
     margin: 1rem;
     margin-bottom: 2rem;
     border-radius: 5px;
     position: relative;
     padding: 1rem;
-    // padding-bottom: 2rem;
 
 
     &--card {
@@ -63,9 +61,7 @@
 
     &--img {
       margin: 0 auto;
-      cursor: pointer;
       transition: .2s;
-      // padding: 1rem;
     }
 
     &--card:hover &--img {
@@ -75,8 +71,6 @@
     &--description-div {
       margin: 1rem 0;
       padding: 0 .5rem;
-      // text-align: left;
-
     }
 
     &--title {
@@ -93,7 +87,6 @@
     &--links {
       margin: .5rem 0;
       padding-left: 1rem;
-      // text-align: left;
     }
 
     &--link,

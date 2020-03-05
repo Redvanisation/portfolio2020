@@ -22,7 +22,7 @@ const Projects = () => (
     </h3>
 
     <div className="btn-div">
-      <a href="https://drive.google.com/file/d/1_muixIH8oPv_Fe5vu6pkHQ2qD37yjkQ7/view?usp=sharing" className="button button__red is-full" target="_blank" rel="noopener noreferrer">Resume</a>
+      <a href="https://docs.google.com/document/d/1tcYCAfDQA46ZO4YZu0B3pKZfGZZCdsbDYOZ9eHAryZw/edit?usp=sharing" className="button button__red is-full" target="_blank" rel="noopener noreferrer">Resume</a>
 
     </div>
 

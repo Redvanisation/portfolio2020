@@ -13,7 +13,7 @@ const Contact = ({ setShowNote, sendSuccess, sendError }) => (
           Hi, I&apos;m Radouane, a web developer based in New York City.
           I&apos;m creative, analytical and very passionate about web development.
           I was previously a lawyer for over 5 years but my passion for web development made me choose a different path.
-          through my time in web development I acquired professional-level skills including
+          Through my time in web development I acquired professional-level skills including
           {' '}
           <span className="heighlight">Ruby, Ruby on Rails, JavaScript, React, Redux, Sass, Test-Driven development techniques</span>
           {' '}
@@ -21,7 +21,7 @@ const Contact = ({ setShowNote, sendSuccess, sendError }) => (
         </p>
 
         <p className="contact__content-div--parag">
-          I&apos;m a maker at heart and in my free time I like to acquire as many skills as possible, whether it&apos;s learning a new programming language, learning musical instruments, cooking or any other skill I can get the tools for. Both at work and in my personal life, I&apos;m constantly chasing the satisfaction of a tangible finished product. When I&apos;m not working or crafting, I also try to spend time giving back to the community, especially supporting new developers and contributing to apps that promote dev community meetups.
+          I&apos;m a maker at heart and in my free time I like to acquire as many skills as possible, whether it&apos;s learning a new programming language, learning musical instruments, cooking or any other skill I can get the tools for. Both at work and in my personal life, I&apos;m constantly chasing the satisfaction of a tangible finished product. When I&apos;m not working or crafting, I also try to spend time giving back to the community, especially supporting new developers and contributing to apps that can help the dev community over the world.
         </p>
 
       </div>
