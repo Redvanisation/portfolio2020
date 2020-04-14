@@ -103,6 +103,8 @@
 
 @media only screen and (max-width: 770px) {
   .projects {
+    padding-bottom: 30rem;
+
       &__quote {
         font-size: 1.1rem !important;
         padding: 0 2rem;
@@ -115,5 +117,11 @@
           display: block;
         }
       }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .projects {
+    padding-bottom: 20rem;
   }
 }
