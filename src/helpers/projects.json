@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Free Run Store",
     "description": "Free Run is an e-commerce store developed with a Ruby on Rails API back-end using JWT Authentication, RSpec for Test Driven Development and AWS S3 for image storage with Active Storage, and a React front-end using Hooks, React Router, Bulma CSS, Sass and PayPal checkout module.",
-    "live": "https://objective-payne-c9a208.netlify.com/",
+    "live": "https://free-run.herokuapp.com/",
     "github": "https://github.com/Redvanisation/FreeRun",
     "image": "./project-images/free-run.png"
   },
