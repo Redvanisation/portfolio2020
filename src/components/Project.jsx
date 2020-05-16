@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const Project = ({
   name, description, live, github, image,
 }) => (
-  <div className="projects__project column">
+  <div className="projects__project column is-one-third">
     <figure className="projects__project--card">
       <img src={image} alt="" className="projects__project--img" />
       <figcaption className="projects__project--description-div">

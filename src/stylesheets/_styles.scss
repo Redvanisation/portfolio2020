@@ -104,6 +104,11 @@ body.light-mode {
   font-weight: 600;
 }
 
+::selection {
+  background-color: $color-secondary;
+  color: $color-primary-light;
+}
+
 @media only screen and (max-width: 770px) {
   .section-title {
     font-size: 1.7rem !important;

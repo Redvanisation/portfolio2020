@@ -1,38 +1,51 @@
 [
   {
     "id": 1,
-    "title": "Tech Talks",
-    "description": "A responsive mobile first full stack app made with the TDD technique using: React/Redux, Ruby on Rails, Webpacker, Sass, Bootstrap, RSpec and Capybara.",
-    "live": "https://tech--talks.herokuapp.com/",
-    "github": "https://github.com/Redvanisation/Tech-Talks/tree/feature/techtalks"
+    "title": "Free Run Store",
+    "description": "Free Run is an e-commerce store developed with a Ruby on Rails API back-end using JWT Authentication, RSpec for Test Driven Development and AWS S3 for image storage with Active Storage, and a React front-end using Hooks, React Router, Bulma CSS, Sass and PayPal checkout module.",
+    "live": "https://objective-payne-c9a208.netlify.app/",
+    "github": "https://github.com/Redvanisation/FreeRun",
+    "image": "./project-images/free-run.png"
   },
   {
     "id": 2,
-    "title": "Bookstore",
-    "description": "A Bookstore app built with ReactJS and Redux implementing the CRUD actions and the functionality to store and filter books by category.",
-    "live": "https://romantic-jones-35e941.netlify.com/",
-    "github": "https://github.com/Redvanisation/Bookstore"
+    "title": "Tech Talks",
+    "description": "A responsive mobile first full stack app made with the Test Driven Development techniques using: React/Redux, Ruby on Rails, Webpacker, Sass, Bootstrap, RSpec and Capybara.",
+    "live": "https://tech--talks.herokuapp.com/",
+    "github": "https://github.com/Redvanisation/Tech-Talks/tree/feature/techtalks",
+    "image": "./project-images/mcb-techtalks.png"
   },
   {
     "id": 3,
-    "title": "Battleship",
-    "description": "The old school battleship game created with the TDD technique using Jest and vanilla JavaScript, ES6 modules, Webpack, Babel, HTML5 and CSS3.",
-    "live": "https://cdn.statically.io/gh/Redvanisation/Battleship/feature/battleship/dist/index.html",
-    "github": "https://github.com/Redvanisation/Battleship"
+    "title": "Bookstore",
+    "description": "A Bookstore app built with ReactJS and Redux implementing the CRUD actions and the functionality to store and filter books by category.",
+    "live": "https://romantic-jones-35e941.netlify.com/",
+    "github": "https://github.com/Redvanisation/Bookstore",
+    "image": "./project-images/mcb-bookstore.png"
   },
   {
     "id": 4,
-    "title": "Insta Social",
-    "description": "A full CRUD social network app made using the TDD technique using RSpec and Capybara, Ruby on Rails, Sass, Bootstrap, PostgreSQL and Omniauth.",
-    "live": "https://theinstasocial.herokuapp.com/",
-    "github": "https://github.com/Redvanisation/insta-social"
+    "title": "Battleship",
+    "description": "The old school battleship game created with the TDD technique using Jest and vanilla JavaScript, ES6 modules, Webpack, Babel, HTML5 and CSS3.",
+    "live": "https://cdn.statically.io/gh/Redvanisation/Battleship/feature/battleship/dist/index.html",
+    "github": "https://github.com/Redvanisation/Battleship",
+    "image": "./project-images/mcb-battleship.png"
   },
   {
     "id": 5,
-    "title": "To-do List",
-    "description": "To-do list app build with vanilla JavaScript, ES6 Modules, Webpack, HTML5 and CSS3 using CRUD actions to control the to-dos and using the Local Storage for saving.",
+    "title": "Insta Social",
+    "description": "A full CRUD social network app made using the TDD technique using RSpec and Capybara, Ruby on Rails, Sass, Bootstrap, PostgreSQL and Omniauth.",
+    "live": "https://theinstasocial.herokuapp.com/",
+    "github": "https://github.com/Redvanisation/insta-social",
+    "image": "./project-images/insta-social.png"
+  },
+  {
+    "id": 6,
+    "title": "Will Do",
+    "description": "Will Do is a vanilla JavaScript developed using ES6 Modules, Webpack, HTML5 and CSS3 using CRUD actions to control the to-dos and using the Local Storage for saving.",
     "live": "https://rawcdn.githack.com/Redvanisation/Todo-list/dc95cf18d1646a2121fb6912f485c7c5dc69f3f3/dist/index.html",
-    "github": "https://github.com/Redvanisation/Todo-list"
+    "github": "https://github.com/Redvanisation/Todo-list",
+    "image": "./project-images/mcb-todo.png"
   }
 ]
 

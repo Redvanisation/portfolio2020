@@ -51,6 +51,8 @@
 @media only screen and (max-width: 770px) {
 
   .contact {
+    margin-top: -40rem;
+    padding-top: 40rem;
 
     &__content-div {
       padding: 2rem;
@@ -76,7 +78,9 @@
 
 @media only screen and (max-width: 400px) {
   .contact {
-
+    margin-top: -30rem;
+    padding-top: 30rem;
+    
     &__content-div {
       &--parag {
         font-size: 1rem;  

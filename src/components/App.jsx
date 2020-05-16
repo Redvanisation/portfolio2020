@@ -7,6 +7,7 @@ import Projects from '../containers/Projects';
 import Contact from '../containers/Contact';
 import Activity from '../containers/Activity';
 import Footer from './Footer';
+import analyze from '../helpers/analytics';
 
 
 class App extends Component {
@@ -49,6 +50,7 @@ class App extends Component {
 
   render() {
     const { msgSuccess, showNote } = this.state;
+    analyze();
     return (
       <div className="app">
         <Notification
