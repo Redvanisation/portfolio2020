@@ -16,7 +16,7 @@ const Projects = () => (
     </h3>
 
     <div className="btn-div">
-      <a href="https://docs.google.com/document/d/1tcYCAfDQA46ZO4YZu0B3pKZfGZZCdsbDYOZ9eHAryZw/edit?usp=sharing" className="button button__red is-full" target="_blank" rel="noopener noreferrer">Resume</a>
+      <a href="https://docs.google.com/document/d/17tqV9bp0kb_1XksAZOGkPZKgW-tMDfr7rsToA1GaRn4/edit?usp=sharing" className="button button__red is-full" target="_blank" rel="noopener noreferrer">Resume</a>
     </div>
 
 

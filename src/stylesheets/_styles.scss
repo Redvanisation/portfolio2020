@@ -109,6 +109,16 @@ body.light-mode {
   color: $color-primary-light;
 }
 
+@media only screen and (max-width: 850px) {
+  .header-title {
+    font-size: 1.5rem;
+  }
+
+  .header-title + .subtitle {
+    font-size: 1.1rem;
+  }
+}
+
 @media only screen and (max-width: 770px) {
   .section-title {
     font-size: 1.7rem !important;
