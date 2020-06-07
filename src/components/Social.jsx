@@ -6,22 +6,22 @@ import {
 
 const Social = () => (
   <div className="social">
-    <a href="https://github.com/Redvanisation" target="_blank" rel="noreferrer noopener" className="social__item--link social__item">
+    <a aria-label="Github" href="https://github.com/Redvanisation" target="_blank" rel="noreferrer noopener" className="social__item--link social__item">
       <div className="social__item">
         <FaGithub className="social__item--icon" />
       </div>
     </a>
-    <a href="https://twitter.com/redvanisation" target="_blank" rel="noreferrer noopener" className="social__item--link">
+    <a aria-label="Twitter" href="https://twitter.com/redvanisation" target="_blank" rel="noreferrer noopener" className="social__item--link">
       <div className="social__item">
         <FaTwitter className="social__item--icon" />
       </div>
     </a>
-    <a href="https://www.linkedin.com/in/redvan/" target="_blank" rel="noreferrer noopener" className="social__item--link">
+    <a aria-label="LinkedIn" href="https://www.linkedin.com/in/redvan/" target="_blank" rel="noreferrer noopener" className="social__item--link">
       <div className="social__item">
         <FaLinkedinIn className="social__item--icon" />
       </div>
     </a>
-    <a href="https://dev.to/redvanisation" target="_blank" rel="noreferrer noopener" className="social__item--link">
+    <a aria-label="Dev.to" href="https://dev.to/redvanisation" target="_blank" rel="noreferrer noopener" className="social__item--link">
       <div className="social__item">
         <FaDev className="social__item--icon" />
       </div>

@@ -16,18 +16,7 @@
       z-index: 5000;
       text-align: center;
       cursor: pointer;
-      // box-shadow: 0 .5rem 2rem rgba($color-black, .8);
       @include boxShadowBlack;
-      
-      // @include respond(tab-port) {
-      //     top: 4rem;
-      //     right: 4rem;
-      // }
-  
-      // @include respond(phone) {
-      //     top: 3rem;
-      //     right: 3rem;
-      // }
 
   }
   
@@ -42,16 +31,6 @@
       z-index: 3000;
       transition: all .8s cubic-bezier(0.645, 0.045, 0.355, 1);
 
-
-      // @include respond(tab-port) {
-      //     top: 4.5rem;
-      //     right: 4.5rem;
-      // }
-  
-      // @include respond(phone) {
-      //     top: 3.5rem;
-      //     right: 3.5rem;
-      // }
   }
 
   &__nav {
@@ -74,31 +53,27 @@
 
   &__item {
       margin: 1rem;
-      // width: 40%;
   }
 
   &__link {
-    //   &:link,
-    //   &:visited {
-          display: inline-block;
-          font-size: 2rem;
-          font-weight: 200;
-          font-family: 'Muli', sans-serif;
-          text-decoration: none;
-          text-transform: uppercase;
-          padding: 1rem 2rem;
-          letter-spacing: 1.2rem;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 200;
+    font-family: 'Muli', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    letter-spacing: 1.2rem;
 
-          background-image: linear-gradient(120deg, transparent 0%, transparent 50%, $color-secondary 50%);
-          background-size: 230%;
-          
-          transition: all .4s;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, $color-secondary 50%);
+    background-size: 230%;
+    
+    transition: all .4s;
 
-          span {
-              display: inline-block;
-              margin-right: 1.5rem;
-          }
-    //   }
+    span {
+        display: inline-block;
+        margin-right: 1.5rem;
+    }
 
       &:hover,
       &:active {
@@ -114,10 +89,9 @@
   }
 
   &__checkbox:checked ~ &__nav {
-      opacity: 1;
-      width: 100%;
-      left: 0;
-      // @include absCenter;
+    opacity: 1;
+    width: 100%;
+    left: 0;
   }
 
   // ICON STYLING:

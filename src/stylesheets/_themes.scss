@@ -63,7 +63,6 @@ body.light-mode {
     }
   }
 
-
   // SOCIAL COMPONENT
   .social {
     &__item {
@@ -84,9 +83,6 @@ body.light-mode {
         color: $color-text-dark;
       }
 
-      &--title {
-      }
-      
       &--description {
         color: $color-text-dark;
       }
@@ -114,7 +110,6 @@ body.light-mode {
     &__content-div {
       &--description {
         color: $color-text-dark;
-        // border-right: 2px solid $color-text-dark;
       }
 
       &--hr {
@@ -267,10 +262,6 @@ body.dark-mode {
 
     &__project {
 
-      &--title {
-
-      }
-
       &--description {
         color: $color-text-light;
 
@@ -372,9 +363,6 @@ body.dark-mode {
         &--descripton {
           color: $color-text-light;
         }
-        // &--hr {
-        //   background-color: $color-text-light;
-        // }
       }
     }
   }
