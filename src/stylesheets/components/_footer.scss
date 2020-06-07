@@ -1,0 +1,37 @@
+.footer {
+  margin-top: -10rem;
+  padding-top: 12rem;
+  padding-bottom: 10rem;
+  
+  &__logo {
+    width: 100px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    transition: all .3s;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+
+  &__social {
+
+    &--link,
+    &--link:link,
+    &--link:visited {
+
+      &:not(:last-child) {
+        margin-right: 1rem;
+      }
+    }
+
+    &--icon {
+      font-size: 1.5rem;
+      transition: all .3s;
+      &:hover {
+        transform: scale(1.3) rotate(20deg);
+        color: $color-text-dark;
+      }
+    }
+  }
+}

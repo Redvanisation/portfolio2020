@@ -1,0 +1,49 @@
+.social {
+  display: inline-block;
+  position: fixed;
+  top: 8rem;
+  right: .5rem;
+  z-index: 1001;
+  
+  &__item {
+    @include boxShadowBlack;
+    position: relative;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: all .2s;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+
+    &:active {
+      transform: translateY(-1px);
+    }
+
+    &--link,
+    &--link:link,
+    &--link:visited {
+      color: black;
+    }
+
+
+    &--icon {
+      @include absCenter;
+      font-size: 1.3rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .social {
+    top: 6rem;
+    right: .3rem;
+    
+    &__item {
+      margin-bottom: .5rem;
+    }
+  }
+}

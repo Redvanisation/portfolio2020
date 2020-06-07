@@ -1,0 +1,30 @@
+.header {
+  position: relative;
+}
+
+.hero {
+  @include sectionBottom;
+  position: relative;
+  z-index: 1000;
+}
+
+.brain {
+  margin: 0 auto;
+  padding: 1rem;
+  width: 80%;
+}
+
+
+@media only screen and (max-width: 770px) {
+  .brain {
+    margin: 2rem auto;
+    width: 15rem;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .brain {
+    width: 12rem;
+  }
+}

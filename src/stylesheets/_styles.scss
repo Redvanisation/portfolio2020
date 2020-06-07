@@ -1,0 +1,136 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  max-width: 100vw;
+}
+
+body.light-mode {
+  transition: background-color 0.3s ease;
+}
+
+// NAVBAR
+.app {
+    position: relative;
+}
+
+.is-middle {
+    @include absCenter;
+    width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.title {
+  font-family: 'Muli', sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.header-title {
+  position: relative;
+  margin-bottom: 2rem !important;
+}
+
+.header-title::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  left: 50%;
+  top: 115%;
+  height: 15%;
+  width: 28%;
+  background-color: $color-secondary;
+  transform: translateX(-50%) rotate(2deg);
+}
+
+
+.section-title {
+  position: relative;
+  margin-bottom: 3rem !important;
+}
+
+.section-title::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  left: 50%;
+  top: 95%;
+  height: 15%;
+  width: 10%;
+  background-color: $color-secondary;
+  transform: translateX(-50%) rotate(-2deg);
+}
+
+.btn-div {
+  margin-bottom: 3rem;
+}
+
+.button {
+  background-color: transparent;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: .5rem 2rem;
+  height: auto;
+  outline: none;
+  margin: 1rem 0;
+  transition: .2s;
+
+  &__red {
+    border: 3px solid $color-secondary !important;
+  }
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.button:active {
+  transform: translateY(-1px);
+}
+
+.trans {
+  opacity: 0;
+}
+
+.heighlight {
+  color: $color-secondary;
+  font-weight: 600;
+}
+
+::selection {
+  background-color: $color-secondary;
+  color: $color-primary-light;
+}
+
+@media only screen and (max-width: 850px) {
+  .header-title {
+    font-size: 1.5rem;
+  }
+
+  .header-title + .subtitle {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .section-title {
+    font-size: 1.7rem !important;
+  }
+
+  .section-title::before {
+    width: 18%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .section-title::before {
+    width: 35%;
+  }
+}

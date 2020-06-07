@@ -1,0 +1,127 @@
+.projects {
+  @include sectionBottom;
+  
+  margin-top: -10rem;
+  padding-top: 15rem;
+  padding-bottom: 10rem;
+  position: relative;
+  z-index: 10;
+
+  background-color: $color-primary;
+
+  &__title {
+    padding-bottom: 1rem;
+  }
+  
+  &__quote {
+    text-transform: uppercase;
+    font-weight: 200;
+    line-height: 1.5;
+
+    &--span {
+      color: $color-secondary;
+      font-weight: 700 !important;
+    }
+  }
+  
+  &__search {
+    padding-bottom: 1rem;
+
+    &--skill {
+      display: inline-block;
+      cursor: pointer;
+      
+      &:not(:last-child) {
+        margin-right: .5rem;
+      }
+    }
+  }
+
+  &__button-div {
+    margin-bottom: 3rem;
+  }
+
+  &__container {
+    margin: 0 1rem;
+  }
+  
+  &__project {
+    // margin: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    position: relative;
+    padding: 1rem;
+
+
+    &--card {
+      position: relative;
+      transition: all .3s;
+      margin-bottom: 5rem;
+    }
+
+    &--img {
+      margin: 0 auto;
+      transition: .2s;
+    }
+
+    &--card:hover &--img {
+      transform: translateY(-5px);
+    }
+
+    &--description-div {
+      margin: 1rem 0;
+      padding: 0 .5rem;
+    }
+
+    &--title {
+      font-weight: 700;
+      font-size: 1.5rem;
+      margin-bottom: .5rem;
+    }
+
+    &--description {
+      text-align: left;
+      padding-left: 1rem;
+    }
+
+    &--links {
+      margin: .5rem 0;
+      padding-left: 1rem;
+    }
+
+    &--link,
+    &--link:link,
+    &--link:visited {
+      padding: 0 .5rem;
+      font-weight: 700;
+      transition: all .2s;
+    }
+  }
+
+}
+
+
+@media only screen and (max-width: 770px) {
+  .projects {
+    padding-bottom: 30rem;
+
+      &__quote {
+        font-size: 1.1rem !important;
+        padding: 0 2rem;
+        
+        &--line-1 {
+          display: block;
+          margin-bottom: .2rem;
+        }
+        &--line-2 {
+          display: block;
+        }
+      }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .projects {
+    padding-bottom: 20rem;
+  }
+}

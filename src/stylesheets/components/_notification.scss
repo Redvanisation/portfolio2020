@@ -1,0 +1,18 @@
+.notification {
+  
+  &__message {
+    position: fixed;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    z-index: 99999;
+    margin-top: -20px;
+    padding: 3rem;
+    background-color: $color-secondary;
+    color: $color-primary-light !important;
+    font-weight: 400 !important;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all .3s ease-in-out;
+  }
+}

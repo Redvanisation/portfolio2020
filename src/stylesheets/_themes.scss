@@ -1,0 +1,372 @@
+body.light-mode {
+  // LOGO
+  .logo {
+    content: url('../assets/logoblack.svg');
+
+    &::before {
+      content: url('/assets/logoblack.svg');
+    }
+  }
+
+  // NAVIGATION
+  .navigation {
+    &__button {
+        background-color: $color-text-dark;
+    }
+
+    &__background {
+      background-image: radial-gradient(rgba($color-text-dark, .98), rgba($color-primary, .98));
+    }
+
+    &__link {
+      color: $color-primary;
+
+      &:hover,
+      &:active {
+          color: $color-primary;
+      }
+    }
+
+    &__icon {
+      &,
+      &::before,
+      &::after {
+          background-color: $color-primary;
+      }
+    }
+
+  }
+
+  // HERO SECTION
+  .hero {
+    background-color: $color-primary-light;
+    @include fadeBg;
+  }
+
+  .brain {
+    content: url('../assets/BrainLight.svg');
+  }
+
+ .brain::before {
+    content: url('../assets/BrainLight.svg');  height: 10px;
+  }
+
+  .title,
+  .subtitle {
+    color: $color-text-dark;
+  }
+
+
+  .dark-mode-toggle {
+    & > button {
+      background-color: $color-text-dark;
+    }
+  }
+
+  // SOCIAL COMPONENT
+  .social {
+    &__item {
+      background-color: $color-text-dark;
+      &--icon {
+        color: $color-primary-light;
+      }
+    }
+  }
+
+  //PROJECTS SECTION
+  .projects {
+    background-color: $color-primary;
+
+    &__project {
+
+      &__search {
+        color: $color-text-dark;
+      }
+
+      &--description {
+        color: $color-text-dark;
+      }
+
+      &--link,
+      &--link:link,
+      &--link:visited {
+        color: $color-text-dark;
+
+        &:not(:last-child) {
+          border-right: 2px solid $color-text-dark;
+        }
+
+        &:hover {
+          color: $color-secondary;
+        }
+      }
+    }
+  }
+
+  // CONTACT SECTION
+  .contact {
+    background-color: $color-primary-light;
+
+    &__content-div {
+      &--description {
+        color: $color-text-dark;
+      }
+
+      &--hr {
+        background-color: $color-text-dark;
+      }
+
+      &--form-inputs {
+        border: 2px solid $color-primary;
+      }
+    }
+  }
+
+  // ACTIVITY SECTION
+  .activity {
+    background-color: $color-primary;
+    color: $color-text-dark;
+
+    &__article {
+      &--link,
+      &--link:link,
+      &--link:visited {
+        color: $color-text-dark;
+
+        &:hover {
+          color: $color-secondary;
+        }
+      }
+    }
+  }
+
+  // FOOTER
+  .footer {
+    background-color: $color-secondary;
+    
+    &__logo {
+      color: $color-primary-light;
+    }
+
+    &__social {
+      &--title {
+        color: $color-primary-light;
+      }
+
+      &--link,
+      &--link:link,
+      &--link:visited {
+        color: $color-primary-light;
+        transition: color .2s;
+
+        &:hover {
+          color: $color-text-dark;
+        }
+      }
+
+
+    }
+  }
+
+  // OTHER
+  .text-colored {
+    color: $color-text-dark;
+  }
+
+  .button {
+    border: 3px solid $color-primary;
+    color: $color-text-dark;
+  }
+}
+
+body.dark-mode {
+  // LOGO
+  .logo {
+    content: url('../assets/logowhite.svg');
+
+    &::before {
+      content: url('/assets/logowhite.svg');
+    }
+  }
+
+  // NAVIGATION
+  .navigation {
+    &__button {
+        background-color: $color-text-light;
+    }
+
+    &__background {
+      background-image: radial-gradient(rgba($color-text-light, .98), rgba($color-primary-dark, .98));
+    }
+
+    &__link {
+      color: $color-primary-dark;
+
+      &:hover,
+      &:active {
+          color: $color-primary;
+      }
+    }
+
+    &__icon {
+      &,
+      &::before,
+      &::after {
+          background-color: $color-primary-dark;
+      }
+    }
+  }
+
+  // HERO SECTION
+  .hero {
+    background-color: $color-primary-dark;
+    @include fadeBg;
+  }
+
+  .brain {
+    content: url('../assets/BrainDark.svg');
+  }
+
+ .brain::before {
+    content: url('../assets/BrainDark.svg');  height: 10px;
+  }
+
+  .title,
+  .subtitle {
+    color: $color-text-light;
+  }
+
+  .dark-mode-toggle {
+    & > button {
+      background-color: $color-primary;
+    }
+  }
+
+  // SOCIAL COMPONENT
+  .social {
+    &__item {
+      background-color: $color-text-light;
+      &--icon {
+        color: $color-primary-dark;
+      }
+    }
+  }
+
+  //PROJECTS SECTION
+  .projects {
+    background-color: $color-primary-dark-light;
+
+    &__search {
+      color: $color-text-light;
+    }
+
+    &__project {
+
+      &--description {
+        color: $color-text-light;
+
+      }
+
+      &--link,
+      &--link:link,
+      &--link:visited {
+        color: $color-text-light;
+
+        &:not(:last-child) {
+          border-right: 2px solid $color-text-light;
+        }
+
+        &:hover {
+          color: $color-secondary;
+        }
+      }
+    }
+  }
+
+  // CONTACT SECTION
+  .contact {
+    background-color: $color-primary-dark;
+
+    &__content-div {
+      &--description {
+        color: $color-text-light;
+      }
+
+      &--hr {
+        background-color: $color-text-light;
+      }
+
+      &--form-inputs {
+        border: 2px solid $color-primary-dark-light;
+        color: $color-text-light;    
+  
+        &::-webkit-input-placeholder {
+          color: $color-text-light;
+        }
+      }
+    }
+  }
+
+  // ACTIVITY SECTION
+  .activity {
+    background-color: $color-primary-dark-light;
+    color: $color-text-light;
+
+    &__article {
+      &--link,
+      &--link:link,
+      &--link:visited {
+        color: $color-text-light;
+
+        &:hover {
+          color: $color-secondary;
+        }
+      }
+    }
+  }
+
+  // FOOTER
+  .footer {
+    background-color: $color-secondary;
+    
+    &__logo {
+      color: $color-primary-light;
+    }
+
+    &--title {
+      color: $color-primary-light;
+    }
+
+    &__social {
+      &--link,
+      &--link:link,
+      &--link:visited {
+        color: $color-primary-light;
+      }
+    }
+  }
+
+  // OTHER
+  .text-colored {
+    color: $color-text-light;
+  }
+
+  .button {
+    border: 3px solid $color-primary-dark-light;
+    color: $color-text-light;
+
+  }
+
+  @media only screen and (max-width: 770px) {
+    .contact {
+      &__content-div {
+        &--descripton {
+          color: $color-text-light;
+        }
+      }
+    }
+  }
+
+  
+  
+}
