@@ -14,11 +14,11 @@ const Projects = () => (
       </span>
     </h3>
 
-    <div className="btn-div">
+    {/* <div className="btn-div">
       <a href="https://docs.google.com/document/d/17tqV9bp0kb_1XksAZOGkPZKgW-tMDfr7rsToA1GaRn4/edit?usp=sharing" className="button button__red is-full" target="_blank" rel="noopener noreferrer">Resume</a>
-    </div>
+    </div> */}
 
-    <div className="columns is-multiline ">
+    <div className="columns is-multiline mt-6">
       {
         theProjects.map((project) => <Project key={project.id} name={project.title} description={project.description} live={project.live} github={project.github} image={project.image} />)
       }

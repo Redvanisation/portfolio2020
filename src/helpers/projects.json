@@ -9,27 +9,27 @@
   },
   {
     "id": 2,
+    "title": "Sustain WDN",
+    "description": "SustainWDN is a platform made with a React frontend and a Rails API backend, the goal of the platform is to help youth find out and follow the pathways of their dreams, be assigned to a facilitator and apply to the opportunities they desire.",
+    "live": "https://lucid-hypatia-0b87db.netlify.app/",
+    "github": "https://github.com/Redvanisation/sustain-wdn",
+    "image": "./project-images/mcb-sustain.png"
+  },
+  {
+    "id": 3,
+    "title": "Kyoor MD",
+    "description": "KyoorMD is a platform that specializes in health and wellness helping people with the COVID-19 pandemic, the website is developed using React, Bulma, Sass in the frontend and NodeJS aith PostgreSQL in the backend.",
+    "live": "https://kyoormd.com",
+    "github": "https://github.com/Redvanisation/KyoorMD",
+    "image": "./project-images/mcb-kyoor.png"
+  },
+  {
+    "id": 4,
     "title": "Tech Talks",
     "description": "A responsive mobile first full stack app made with the Test Driven Development techniques using: React/Redux, Ruby on Rails, Webpacker, Sass, Bootstrap, RSpec and Capybara.",
     "live": "https://tech--talks.herokuapp.com/",
     "github": "https://github.com/Redvanisation/Tech-Talks/tree/feature/techtalks",
     "image": "./project-images/mcb-techtalks.png"
-  },
-  {
-    "id": 3,
-    "title": "Bookstore",
-    "description": "A Bookstore app built with ReactJS and Redux implementing the CRUD actions and the functionality to store and filter books by category.",
-    "live": "https://romantic-jones-35e941.netlify.com/",
-    "github": "https://github.com/Redvanisation/Bookstore",
-    "image": "./project-images/mcb-bookstore.png"
-  },
-  {
-    "id": 4,
-    "title": "Battleship",
-    "description": "The old school battleship game created with the TDD technique using Jest and vanilla JavaScript, ES6 modules, Webpack, Babel, HTML5 and CSS3.",
-    "live": "https://cdn.statically.io/gh/Redvanisation/Battleship/feature/battleship/dist/index.html",
-    "github": "https://github.com/Redvanisation/Battleship",
-    "image": "./project-images/mcb-battleship.png"
   },
   {
     "id": 5,
@@ -41,11 +41,12 @@
   },
   {
     "id": 6,
-    "title": "Will Do",
-    "description": "Will Do is a vanilla JavaScript developed using ES6 Modules, Webpack, HTML5 and CSS3 using CRUD actions to control the to-dos and using the Local Storage for saving.",
-    "live": "https://rawcdn.githack.com/Redvanisation/Todo-list/dc95cf18d1646a2121fb6912f485c7c5dc69f3f3/dist/index.html",
-    "github": "https://github.com/Redvanisation/Todo-list",
-    "image": "./project-images/mcb-todo.png"
+    "title": "Battleship",
+    "description": "The old school battleship game created with the TDD technique using Jest and vanilla JavaScript, ES6 modules, Webpack, Babel, HTML5 and CSS3.",
+    "live": "https://cdn.statically.io/gh/Redvanisation/Battleship/feature/battleship/dist/index.html",
+    "github": "https://github.com/Redvanisation/Battleship",
+    "image": "./project-images/mcb-battleship.png"
   }
 ]
+
 
