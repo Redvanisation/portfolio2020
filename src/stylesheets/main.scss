@@ -5,10 +5,11 @@
 @import './components/navbar';
 @import './components//logo';
 @import './components/social';
-@import './components/header';
-@import './components/projects';
-@import './components/contact';
-@import './components/activity';
+@import './containers/header';
+@import './containers/about';
+@import './containers/projects';
+@import './containers/contact';
+@import './containers/activity';
 @import './components/footer';
 @import './components/toggle';
 @import './styles';

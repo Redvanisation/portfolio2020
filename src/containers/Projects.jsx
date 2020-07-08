@@ -3,7 +3,6 @@ import React from 'react';
 import Project from '../components/Project';
 import theProjects from '../helpers/projects.json';
 
-
 const Projects = () => (
   <section className="projects block has-text-centered">
     <h2 className="section-title projects__title title is-2" id="projects">Featured Projects</h2>
@@ -18,7 +17,6 @@ const Projects = () => (
     <div className="btn-div">
       <a href="https://docs.google.com/document/d/17tqV9bp0kb_1XksAZOGkPZKgW-tMDfr7rsToA1GaRn4/edit?usp=sharing" className="button button__red is-full" target="_blank" rel="noopener noreferrer">Resume</a>
     </div>
-
 
     <div className="columns is-multiline ">
       {

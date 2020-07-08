@@ -73,9 +73,14 @@ body.light-mode {
     }
   }
 
+  // ABOUT SECTION
+  .about {
+    background-color: $color-primary;
+  }
+
   //PROJECTS SECTION
   .projects {
-    background-color: $color-primary;
+    background-color: $color-primary-light;
 
     &__project {
 
@@ -105,7 +110,7 @@ body.light-mode {
 
   // CONTACT SECTION
   .contact {
-    background-color: $color-primary-light;
+    background-color: $color-primary;
 
     &__content-div {
       &--description {
@@ -117,14 +122,22 @@ body.light-mode {
       }
 
       &--form-inputs {
-        border: 2px solid $color-primary;
+        border: 2px solid rgba($color-primary-dark, .2);
+        // background-color: rgba($color-primary, .5);
+        // color: $color-text-light;
+        // background-color: rgba($color-primary-dark, .05); 
+        background-color: rgba($color-primary-light, .3); 
+        
+        &::-ms-input-placeholder {
+          color: red !important;
+        }
       }
     }
   }
 
   // ACTIVITY SECTION
   .activity {
-    background-color: $color-primary;
+    background-color: $color-primary-light;
     color: $color-text-dark;
 
     &__article {
@@ -252,9 +265,15 @@ body.dark-mode {
     }
   }
 
+  // ABOUT SECTION
+  .about {
+    background-color: $color-primary-dark-light;
+    color: $color-text-light;
+  }
+
   //PROJECTS SECTION
   .projects {
-    background-color: $color-primary-dark-light;
+    background-color: $color-primary-dark;
 
     &__search {
       color: $color-text-light;
@@ -285,7 +304,7 @@ body.dark-mode {
 
   // CONTACT SECTION
   .contact {
-    background-color: $color-primary-dark;
+    background-color: $color-primary-dark-light;
 
     &__content-div {
       &--description {
@@ -297,8 +316,9 @@ body.dark-mode {
       }
 
       &--form-inputs {
-        border: 2px solid $color-primary-dark-light;
-        color: $color-text-light;    
+        border: 2px solid $color-primary-dark;
+        color: $color-text-light; 
+        background-color: rgba($color-primary, .05);   
   
         &::-webkit-input-placeholder {
           color: $color-text-light;
@@ -309,7 +329,7 @@ body.dark-mode {
 
   // ACTIVITY SECTION
   .activity {
-    background-color: $color-primary-dark-light;
+    background-color: $color-primary-dark;
     color: $color-text-light;
 
     &__article {

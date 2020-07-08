@@ -4,7 +4,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-scroll';
 
-
 class Nav extends Component {
   constructor() {
     super();
@@ -47,6 +46,17 @@ class Nav extends Component {
             <li className="navigation__item">
               <Link
                 className="navigation__link"
+                to="about"
+                smooth
+                duration={500}
+                onClick={this.showHideMenu}
+              >
+                About
+              </Link>
+            </li>
+            <li className="navigation__item">
+              <Link
+                className="navigation__link"
                 to="projects"
                 smooth
                 duration={500}
@@ -83,6 +93,5 @@ class Nav extends Component {
     );
   }
 }
-
 
 export default Nav;

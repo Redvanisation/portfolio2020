@@ -3,6 +3,7 @@ import Notification from './Nofitication';
 import Nav from './Nav';
 import Social from './Social';
 import Header from '../containers/Header';
+import About from '../containers/About';
 import Projects from '../containers/Projects';
 import Contact from '../containers/Contact';
 import Activity from '../containers/Activity';
@@ -60,6 +61,7 @@ class App extends Component {
         <Nav />
         <Social />
         <Header />
+        <About />
         <Projects />
         <Contact
           setShowNote={this.setShowNote}

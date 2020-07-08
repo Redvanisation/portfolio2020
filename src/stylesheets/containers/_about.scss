@@ -1,0 +1,47 @@
+.about {
+  @include sectionBottom;
+  
+  margin-top: -10rem;
+  // padding-top: 15rem;
+  // padding-bottom: 10rem;
+  padding: 15rem 5rem 10rem;
+  position: relative;
+  z-index: 11;
+
+  &__content {
+    padding: 2rem;
+    max-width: 60%;
+    margin: 0 auto;
+
+    &--parag {
+      text-align: left;
+      font-size: 1.2rem;
+      line-height: 1.6;
+
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .about {
+    padding: 15rem 2rem 10rem;
+    &__content {
+      padding: 1rem;
+      max-width: 80%;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .about {
+    padding: 15rem 1rem;
+    &__content {
+      padding: 0;
+      max-width: 90%;
+    }
+  }
+}
+

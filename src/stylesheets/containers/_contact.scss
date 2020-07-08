@@ -9,36 +9,36 @@
   &__content-div {
     padding: 2rem;
 
-    &--title {
-      margin-bottom: 1rem;
-      font-weight: 400 !important;
-    }
+    // &--title {
+    //   margin-bottom: 1rem;
+    //   font-weight: 400 !important;
+    // }
 
-    &--description {
-      padding-left: 2rem;
-      margin-bottom: 4rem;
-    }
+    // &--description {
+    //   padding-left: 2rem;
+    //   margin-bottom: 4rem;
+    // }
 
 
-    &--parag {
-      text-align: left;
-      font-size: 1.1rem;
-      line-height: 28px;
+    // &--parag {
+    //   text-align: left;
+    //   font-size: 1.1rem;
+    //   line-height: 28px;
 
-      &:not(:last-child) {
-        margin-bottom: .5rem;
-      }
-    }
+    //   &:not(:last-child) {
+    //     margin-bottom: .5rem;
+    //   }
+    // }
 
-    &--hr {
-      width: 2px;
-      margin: .5rem 4rem;
-      height: 550px;
-    }
+    // &--hr {
+    //   width: 2px;
+    //   margin: .5rem 4rem;
+    //   height: 550px;
+    // }
 
     &--form {
-      max-width: 90%;
-      margin-top: 8rem;
+      max-width: 50%;
+      // margin-top: 8rem;
     }
 
     &--form-inputs {
@@ -71,6 +71,7 @@
 
       &--form {
         margin-top: 2rem;
+        max-width: 70%;
       }
     }
   }
@@ -88,6 +89,10 @@
         &:not(:last-child) {
           margin-bottom: 1rem;
         }
+      }
+
+      &--form {
+        max-width: 90%;
       }
     }
   }
