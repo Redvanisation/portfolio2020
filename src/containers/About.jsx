@@ -13,7 +13,7 @@ const About = () => (
         , but very few can make it look truly incredible.
       </p>
       <p className="about__content--parag">
-        I&apos;m Radouane, a full-stack web developer and an ex-lawyer based in New Jersey, USA, I&apos;m a polyglot (Multi-lingual) developer with a great knowledge of&nbsp;
+        I&apos;m Radouane, a full-stack web developer and a former lawyer based in New Jersey, USA, I&apos;m a polyglot (Multi-lingual) developer with a great knowledge of&nbsp;
         <span className="heighlight">software development methodologies</span>
         &nbsp;,&nbsp;
         <span className="heighlight">frameworks</span>
@@ -22,7 +22,7 @@ const About = () => (
         &nbsp;and I&apos;ve been a team player in multiple development and software consulting projects.
       </p>
       <p className="about__content--parag">
-        I&apos;m very passionate about new technologies and I&apos;m constantly learning useful patterns that would help be more throught my path.
+        I&apos;m very passionate about new technologies and I&apos;m constantly learning new patterns that would be useful throughout my path.
       </p>
       <p className="about__content--parag about__content--action-call">
         You have an interesting idea or a project you want to discuss?&nbsp;
