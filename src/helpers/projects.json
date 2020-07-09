@@ -9,8 +9,8 @@
   },
   {
     "id": 2,
-    "title": "Sustain WDN",
-    "description": "SustainWDN is a platform made with a React frontend and a Rails API backend, the goal of the platform is to help youth find out and follow the pathways of their dreams, be assigned to a facilitator and apply to the opportunities they desire.",
+    "title": "Sustain WDN (MVP)",
+    "description": "SustainWDN MVP is a platform made with a React frontend and a Rails API backend, the goal of the platform is to help youth find out and follow the pathways of their dreams, be assigned to a facilitator and apply to the opportunities they desire.",
     "live": "https://lucid-hypatia-0b87db.netlify.app/",
     "github": "https://github.com/Redvanisation/sustain-wdn",
     "image": "./project-images/mcb-sustain.png"
