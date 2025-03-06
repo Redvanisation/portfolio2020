@@ -1,6 +1,6 @@
 .projects {
   @include sectionBottom;
-  
+
   margin-top: -15rem;
   padding-top: 20rem;
   padding-bottom: 10rem;
@@ -12,7 +12,7 @@
   &__title {
     padding-bottom: 1rem;
   }
-  
+
   &__quote {
     text-transform: uppercase;
     font-weight: 200;
@@ -23,16 +23,16 @@
       font-weight: 700 !important;
     }
   }
-  
+
   &__search {
     padding-bottom: 1rem;
 
     &--skill {
       display: inline-block;
       cursor: pointer;
-      
+
       &:not(:last-child) {
-        margin-right: .5rem;
+        margin-right: 0.5rem;
       }
     }
   }
@@ -44,7 +44,7 @@
   &__container {
     margin: 0 1rem;
   }
-  
+
   &__project {
     // margin: 1rem;
     margin-bottom: 2rem;
@@ -52,16 +52,15 @@
     position: relative;
     padding: 1rem;
 
-
     &--card {
       position: relative;
-      transition: all .3s;
+      transition: all 0.3s;
       margin-bottom: 5rem;
     }
 
     &--img {
       margin: 0 auto;
-      transition: .2s;
+      transition: 0.2s;
     }
 
     &--card:hover &--img {
@@ -70,13 +69,13 @@
 
     &--description-div {
       margin: 1rem 0;
-      padding: 0 .5rem;
+      padding: 0 0.5rem;
     }
 
     &--title {
       font-weight: 700;
       font-size: 1.5rem;
-      margin-bottom: .5rem;
+      margin-bottom: 0.5rem;
     }
 
     &--description {
@@ -85,38 +84,42 @@
     }
 
     &--links {
-      margin: .5rem 0;
+      margin: 0.5rem 0;
       padding-left: 1rem;
+    }
+
+    &--link-icon {
+      margin-left: 0.5rem;
+      position: relative;
+      top: 1px;
     }
 
     &--link,
     &--link:link,
     &--link:visited {
-      padding: 0 .5rem;
+      padding: 0 0.5rem;
       font-weight: 700;
-      transition: all .2s;
+      transition: all 0.2s;
     }
   }
-
 }
-
 
 @media only screen and (max-width: 770px) {
   .projects {
     padding-bottom: 30rem;
 
-      &__quote {
-        font-size: 1.1rem !important;
-        padding: 0 2rem;
-        
-        &--line-1 {
-          display: block;
-          margin-bottom: .2rem;
-        }
-        &--line-2 {
-          display: block;
-        }
+    &__quote {
+      font-size: 1.1rem !important;
+      padding: 0 2rem;
+
+      &--line-1 {
+        display: block;
+        margin-bottom: 0.2rem;
       }
+      &--line-2 {
+        display: block;
+      }
+    }
   }
 }
 
