@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React from "react";
-import { FaGithub, FaTwitter, FaLinkedinIn, FaDev } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaDev } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 const Social = () => (
